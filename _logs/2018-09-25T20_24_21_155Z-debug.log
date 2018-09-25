@@ -1,0 +1,2390 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mocha',
+1 verbose cli   'ganache-cli',
+1 verbose cli   'web3@1.0.0-beta.35' ]
+2 info using npm@5.6.0
+3 info using node@v8.11.4
+4 verbose npm-session b8df0a2518493080
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/mocha 597ms (from cache)
+8 http fetch GET 304 https://registry.npmjs.org/ganache-cli 613ms (from cache)
+9 silly pacote tag manifest for mocha@latest fetched in 634ms
+10 silly pacote tag manifest for ganache-cli@latest fetched in 643ms
+11 http fetch GET 304 https://registry.npmjs.org/web3 715ms (from cache)
+12 silly pacote version manifest for web3@1.0.0-beta.35 fetched in 1129ms
+13 silly install loadIdealTree
+14 silly install cloneCurrentTreeToIdealTree
+15 silly install loadShrinkwrap
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule mocha@5.2.0 checking installable status
+18 silly resolveWithNewModule ganache-cli@6.1.8 checking installable status
+19 silly resolveWithNewModule web3@1.0.0-beta.35 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/source-map-support 117ms (from cache)
+21 silly pacote range manifest for source-map-support@^0.5.3 fetched in 136ms
+22 silly resolveWithNewModule source-map-support@0.5.9 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/buffer-from 126ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/source-map 146ms (from cache)
+25 silly pacote range manifest for source-map@^0.6.0 fetched in 166ms
+26 silly resolveWithNewModule source-map@0.6.1 checking installable status
+27 silly pacote range manifest for buffer-from@^1.0.0 fetched in 186ms
+28 silly resolveWithNewModule buffer-from@1.1.1 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/debug 522ms (from cache)
+30 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 530ms (from cache)
+31 http fetch GET 304 https://registry.npmjs.org/supports-color 532ms (from cache)
+32 silly pacote version manifest for escape-string-regexp@1.0.5 fetched in 582ms
+33 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+34 http fetch GET 304 https://registry.npmjs.org/browser-stdout 605ms (from cache)
+35 silly pacote version manifest for debug@3.1.0 fetched in 604ms
+36 silly resolveWithNewModule debug@3.1.0 checking installable status
+37 silly pacote version manifest for supports-color@5.4.0 fetched in 618ms
+38 silly resolveWithNewModule supports-color@5.4.0 checking installable status
+39 http fetch GET 304 https://registry.npmjs.org/commander 638ms (from cache)
+40 silly pacote version manifest for browser-stdout@1.3.1 fetched in 656ms
+41 silly resolveWithNewModule browser-stdout@1.3.1 checking installable status
+42 http fetch GET 304 https://registry.npmjs.org/he 656ms (from cache)
+43 http fetch GET 304 https://registry.npmjs.org/glob 663ms (from cache)
+44 http fetch GET 304 https://registry.npmjs.org/mkdirp 674ms (from cache)
+45 silly pacote version manifest for commander@2.15.1 fetched in 681ms
+46 silly resolveWithNewModule commander@2.15.1 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/diff 688ms (from cache)
+48 http fetch GET 304 https://registry.npmjs.org/growl 689ms (from cache)
+49 silly pacote version manifest for he@1.1.1 fetched in 695ms
+50 silly resolveWithNewModule he@1.1.1 checking installable status
+51 silly pacote version manifest for diff@3.5.0 fetched in 711ms
+52 silly resolveWithNewModule diff@3.5.0 checking installable status
+53 silly pacote version manifest for growl@1.10.5 fetched in 714ms
+54 silly resolveWithNewModule growl@1.10.5 checking installable status
+55 silly pacote version manifest for glob@7.1.2 fetched in 733ms
+56 silly resolveWithNewModule glob@7.1.2 checking installable status
+57 silly pacote version manifest for mkdirp@0.5.1 fetched in 749ms
+58 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+59 http fetch GET 304 https://registry.npmjs.org/ms 183ms (from cache)
+60 silly pacote version manifest for ms@2.0.0 fetched in 198ms
+61 silly resolveWithNewModule ms@2.0.0 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/minimist 169ms (from cache)
+63 silly pacote version manifest for minimist@0.0.8 fetched in 184ms
+64 silly resolveWithNewModule minimist@0.0.8 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/has-flag 213ms (from cache)
+66 silly pacote range manifest for has-flag@^3.0.0 fetched in 224ms
+67 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/web3-net 184ms (from cache)
+69 http fetch GET 304 https://registry.npmjs.org/web3-bzz 195ms (from cache)
+70 http fetch GET 304 https://registry.npmjs.org/web3-utils 196ms (from cache)
+71 http fetch GET 304 https://registry.npmjs.org/web3-core 206ms (from cache)
+72 silly pacote version manifest for web3-net@1.0.0-beta.35 fetched in 205ms
+73 silly resolveWithNewModule web3-net@1.0.0-beta.35 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/web3-eth-personal 210ms (from cache)
+75 silly pacote version manifest for web3-utils@1.0.0-beta.35 fetched in 211ms
+76 silly resolveWithNewModule web3-utils@1.0.0-beta.35 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/web3-shh 215ms (from cache)
+78 silly pacote version manifest for web3-bzz@1.0.0-beta.35 fetched in 236ms
+79 silly resolveWithNewModule web3-bzz@1.0.0-beta.35 checking installable status
+80 silly pacote version manifest for web3-core@1.0.0-beta.35 fetched in 242ms
+81 silly resolveWithNewModule web3-core@1.0.0-beta.35 checking installable status
+82 silly pacote version manifest for web3-eth-personal@1.0.0-beta.35 fetched in 256ms
+83 silly resolveWithNewModule web3-eth-personal@1.0.0-beta.35 checking installable status
+84 silly pacote version manifest for web3-shh@1.0.0-beta.35 fetched in 272ms
+85 silly resolveWithNewModule web3-shh@1.0.0-beta.35 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/web3-eth 330ms (from cache)
+87 silly pacote version manifest for web3-eth@1.0.0-beta.35 fetched in 355ms
+88 silly resolveWithNewModule web3-eth@1.0.0-beta.35 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/underscore 112ms (from cache)
+90 http fetch GET 304 https://registry.npmjs.org/swarm-js 129ms (from cache)
+91 silly pacote version manifest for underscore@1.8.3 fetched in 135ms
+92 silly resolveWithNewModule underscore@1.8.3 checking installable status
+93 http fetch GET 304 https://registry.npmjs.org/got 141ms (from cache)
+94 silly pacote version manifest for swarm-js@0.1.37 fetched in 155ms
+95 silly resolveWithNewModule swarm-js@0.1.37 checking installable status
+96 silly pacote version manifest for got@7.1.0 fetched in 162ms
+97 silly resolveWithNewModule got@7.1.0 checking installable status
+98 http fetch GET 304 https://registry.npmjs.org/decompress-response 388ms (from cache)
+99 http fetch GET 304 https://registry.npmjs.org/duplexer3 391ms (from cache)
+100 http fetch GET 304 https://registry.npmjs.org/is-stream 392ms (from cache)
+101 http fetch GET 304 https://registry.npmjs.org/is-retry-allowed 407ms (from cache)
+102 silly pacote range manifest for duplexer3@^0.1.4 fetched in 433ms
+103 silly resolveWithNewModule duplexer3@0.1.4 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/lowercase-keys 440ms (from cache)
+105 silly pacote range manifest for is-stream@^1.0.0 fetched in 446ms
+106 silly resolveWithNewModule is-stream@1.1.0 checking installable status
+107 http fetch GET 304 https://registry.npmjs.org/is-plain-obj 452ms (from cache)
+108 silly pacote range manifest for is-retry-allowed@^1.0.0 fetched in 464ms
+109 silly resolveWithNewModule is-retry-allowed@1.1.0 checking installable status
+110 silly pacote range manifest for decompress-response@^3.2.0 fetched in 498ms
+111 silly resolveWithNewModule decompress-response@3.3.0 checking installable status
+112 http fetch GET 304 https://registry.npmjs.org/isurl 503ms (from cache)
+113 silly pacote range manifest for lowercase-keys@^1.0.0 fetched in 507ms
+114 silly resolveWithNewModule lowercase-keys@1.0.1 checking installable status
+115 silly pacote range manifest for is-plain-obj@^1.1.0 fetched in 522ms
+116 silly resolveWithNewModule is-plain-obj@1.1.0 checking installable status
+117 http fetch GET 304 https://registry.npmjs.org/p-timeout 549ms (from cache)
+118 silly pacote range manifest for isurl@^1.0.0-alpha5 fetched in 570ms
+119 silly resolveWithNewModule isurl@1.0.0 checking installable status
+120 silly pacote range manifest for p-timeout@^1.1.1 fetched in 570ms
+121 silly resolveWithNewModule p-timeout@1.2.1 checking installable status
+122 http fetch GET 304 https://registry.npmjs.org/get-stream 579ms (from cache)
+123 silly pacote range manifest for get-stream@^3.0.0 fetched in 627ms
+124 silly resolveWithNewModule get-stream@3.0.0 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/p-cancelable 622ms (from cache)
+126 http fetch GET 304 https://registry.npmjs.org/timed-out 182ms (from cache)
+127 http fetch GET 304 https://registry.npmjs.org/url-parse-lax 172ms (from cache)
+128 silly pacote range manifest for url-parse-lax@^1.0.0 fetched in 176ms
+129 silly resolveWithNewModule url-parse-lax@1.0.0 checking installable status
+130 silly pacote range manifest for p-cancelable@^0.3.0 fetched in 670ms
+131 silly resolveWithNewModule p-cancelable@0.3.0 checking installable status
+132 http fetch GET 304 https://registry.npmjs.org/url-to-options 183ms (from cache)
+133 silly pacote range manifest for url-to-options@^1.0.1 fetched in 191ms
+134 silly resolveWithNewModule url-to-options@1.0.1 checking installable status
+135 silly pacote range manifest for timed-out@^4.0.0 fetched in 255ms
+136 silly resolveWithNewModule timed-out@4.0.1 checking installable status
+137 http fetch GET 304 https://registry.npmjs.org/safe-buffer 310ms (from cache)
+138 silly pacote range manifest for safe-buffer@^5.0.1 fetched in 332ms
+139 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+140 http fetch GET 304 https://registry.npmjs.org/mimic-response 74ms (from cache)
+141 silly pacote range manifest for mimic-response@^1.0.0 fetched in 92ms
+142 silly resolveWithNewModule mimic-response@1.0.1 checking installable status
+143 http fetch GET 304 https://registry.npmjs.org/is-object 74ms (from cache)
+144 http fetch GET 304 https://registry.npmjs.org/has-to-string-tag-x 80ms (from cache)
+145 silly pacote range manifest for is-object@^1.0.1 fetched in 95ms
+146 silly resolveWithNewModule is-object@1.0.1 checking installable status
+147 silly pacote range manifest for has-to-string-tag-x@^1.2.0 fetched in 109ms
+148 silly resolveWithNewModule has-to-string-tag-x@1.4.1 checking installable status
+149 http fetch GET 304 https://registry.npmjs.org/has-symbol-support-x 74ms (from cache)
+150 silly pacote range manifest for has-symbol-support-x@^1.4.1 fetched in 78ms
+151 silly resolveWithNewModule has-symbol-support-x@1.4.2 checking installable status
+152 http fetch GET 304 https://registry.npmjs.org/p-finally 122ms (from cache)
+153 silly pacote range manifest for p-finally@^1.0.0 fetched in 125ms
+154 silly resolveWithNewModule p-finally@1.0.0 checking installable status
+155 http fetch GET 304 https://registry.npmjs.org/prepend-http 150ms (from cache)
+156 silly pacote range manifest for prepend-http@^1.0.1 fetched in 180ms
+157 silly resolveWithNewModule prepend-http@1.0.4 checking installable status
+158 http fetch GET 304 https://registry.npmjs.org/decompress 1035ms (from cache)
+159 http fetch GET 304 https://registry.npmjs.org/fs-promise 1058ms (from cache)
+160 http fetch GET 304 https://registry.npmjs.org/buffer 1089ms (from cache)
+161 http fetch GET 304 https://registry.npmjs.org/mock-fs 1103ms (from cache)
+162 http fetch GET 304 https://registry.npmjs.org/mkdirp-promise 1112ms (from cache)
+163 silly pacote range manifest for decompress@^4.0.0 fetched in 1142ms
+164 silly resolveWithNewModule decompress@4.2.0 checking installable status
+165 http fetch GET 304 https://registry.npmjs.org/bluebird 1157ms (from cache)
+166 silly pacote range manifest for fs-promise@^2.0.0 fetched in 1200ms
+167 warn deprecated fs-promise@2.0.3: Use mz or fs-extra^3.0 with Promise Support
+168 silly resolveWithNewModule fs-promise@2.0.3 checking installable status
+169 http fetch GET 304 https://registry.npmjs.org/mime-types 1216ms (from cache)
+170 silly pacote range manifest for buffer@^5.0.5 fetched in 1236ms
+171 silly resolveWithNewModule buffer@5.2.1 checking installable status
+172 http fetch GET 304 https://registry.npmjs.org/setimmediate 1239ms (from cache)
+173 silly pacote range manifest for mock-fs@^4.1.0 fetched in 1242ms
+174 silly resolveWithNewModule mock-fs@4.7.0 checking installable status
+175 http fetch GET 304 https://registry.npmjs.org/fs-extra 1254ms (from cache)
+176 silly pacote range manifest for mkdirp-promise@^5.0.1 fetched in 1297ms
+177 silly resolveWithNewModule mkdirp-promise@5.0.1 checking installable status
+178 silly pacote range manifest for bluebird@^3.5.0 fetched in 1308ms
+179 silly resolveWithNewModule bluebird@3.5.2 checking installable status
+180 http fetch GET 304 https://registry.npmjs.org/eth-lib 1310ms (from cache)
+181 silly pacote range manifest for fs-extra@^2.1.2 fetched in 1332ms
+182 silly resolveWithNewModule fs-extra@2.1.2 checking installable status
+183 silly pacote range manifest for setimmediate@^1.0.5 fetched in 1332ms
+184 silly resolveWithNewModule setimmediate@1.0.5 checking installable status
+185 silly pacote range manifest for eth-lib@^0.1.26 fetched in 1342ms
+186 silly resolveWithNewModule eth-lib@0.1.27 checking installable status
+187 silly pacote range manifest for mime-types@^2.1.16 fetched in 1348ms
+188 silly resolveWithNewModule mime-types@2.1.20 checking installable status
+189 http fetch GET 304 https://registry.npmjs.org/tar.gz 241ms (from cache)
+190 http fetch GET 304 https://registry.npmjs.org/xhr-request-promise 201ms (from cache)
+191 silly pacote range manifest for tar.gz@^1.0.5 fetched in 252ms
+192 warn deprecated tar.gz@1.0.7: ⚠️  WARNING ⚠️ tar.gz module has been deprecated and your application is vulnerable. Please use tar module instead: https://npmjs.com/tar
+193 silly resolveWithNewModule tar.gz@1.0.7 checking installable status
+194 silly pacote range manifest for xhr-request-promise@^0.1.2 fetched in 217ms
+195 silly resolveWithNewModule xhr-request-promise@0.1.2 checking installable status
+196 http fetch GET 304 https://registry.npmjs.org/base64-js 171ms (from cache)
+197 silly pacote range manifest for base64-js@^1.0.2 fetched in 192ms
+198 silly resolveWithNewModule base64-js@1.3.0 checking installable status
+199 http fetch GET 304 https://registry.npmjs.org/ieee754 412ms (from cache)
+200 silly pacote range manifest for ieee754@^1.1.4 fetched in 432ms
+201 silly resolveWithNewModule ieee754@1.1.12 checking installable status
+202 http fetch GET 304 https://registry.npmjs.org/decompress-tarbz2 166ms (from cache)
+203 silly pacote range manifest for decompress-tarbz2@^4.0.0 fetched in 198ms
+204 silly resolveWithNewModule decompress-tarbz2@4.1.1 checking installable status
+205 http fetch GET 304 https://registry.npmjs.org/decompress-tar 232ms (from cache)
+206 http fetch GET 304 https://registry.npmjs.org/decompress-targz 237ms (from cache)
+207 http fetch GET 304 https://registry.npmjs.org/decompress-unzip 247ms (from cache)
+208 silly pacote range manifest for decompress-tar@^4.0.0 fetched in 262ms
+209 silly resolveWithNewModule decompress-tar@4.1.1 checking installable status
+210 silly pacote range manifest for decompress-targz@^4.0.0 fetched in 268ms
+211 silly resolveWithNewModule decompress-targz@4.1.1 checking installable status
+212 silly pacote range manifest for decompress-unzip@^4.0.1 fetched in 276ms
+213 silly resolveWithNewModule decompress-unzip@4.0.1 checking installable status
+214 http fetch GET 304 https://registry.npmjs.org/strip-dirs 279ms (from cache)
+215 http fetch GET 304 https://registry.npmjs.org/make-dir 292ms (from cache)
+216 silly pacote range manifest for strip-dirs@^2.0.0 fetched in 299ms
+217 silly resolveWithNewModule strip-dirs@2.1.0 checking installable status
+218 silly pacote range manifest for make-dir@^1.0.0 fetched in 310ms
+219 silly resolveWithNewModule make-dir@1.3.0 checking installable status
+220 http fetch GET 304 https://registry.npmjs.org/file-type 116ms (from cache)
+221 http fetch GET 304 https://registry.npmjs.org/tar-stream 132ms (from cache)
+222 silly pacote range manifest for file-type@^5.2.0 fetched in 142ms
+223 silly resolveWithNewModule file-type@5.2.0 checking installable status
+224 silly pacote range manifest for tar-stream@^1.5.2 fetched in 143ms
+225 silly resolveWithNewModule tar-stream@1.6.2 checking installable status
+226 http fetch GET 304 https://registry.npmjs.org/fs-constants 258ms (from cache)
+227 http fetch GET 304 https://registry.npmjs.org/bl 272ms (from cache)
+228 http fetch GET 304 https://registry.npmjs.org/xtend 267ms (from cache)
+229 silly pacote range manifest for fs-constants@^1.0.0 fetched in 281ms
+230 silly resolveWithNewModule fs-constants@1.0.0 checking installable status
+231 http fetch GET 304 https://registry.npmjs.org/readable-stream 283ms (from cache)
+232 silly pacote range manifest for xtend@^4.0.0 fetched in 288ms
+233 silly resolveWithNewModule xtend@4.0.1 checking installable status
+234 silly pacote range manifest for bl@^1.0.0 fetched in 298ms
+235 silly resolveWithNewModule bl@1.2.2 checking installable status
+236 http fetch GET 304 https://registry.npmjs.org/to-buffer 294ms (from cache)
+237 http fetch GET 304 https://registry.npmjs.org/end-of-stream 301ms (from cache)
+238 http fetch GET 304 https://registry.npmjs.org/buffer-alloc 311ms (from cache)
+239 silly pacote range manifest for readable-stream@^2.3.0 fetched in 318ms
+240 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+241 silly pacote range manifest for buffer-alloc@^1.2.0 fetched in 335ms
+242 silly resolveWithNewModule buffer-alloc@1.2.0 checking installable status
+243 silly pacote range manifest for to-buffer@^1.1.1 fetched in 348ms
+244 silly resolveWithNewModule to-buffer@1.1.1 checking installable status
+245 silly pacote range manifest for end-of-stream@^1.0.0 fetched in 373ms
+246 silly resolveWithNewModule end-of-stream@1.4.1 checking installable status
+247 http fetch GET 304 https://registry.npmjs.org/core-util-is 281ms (from cache)
+248 http fetch GET 304 https://registry.npmjs.org/string_decoder 285ms (from cache)
+249 silly pacote range manifest for core-util-is@~1.0.0 fetched in 300ms
+250 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+251 http fetch GET 304 https://registry.npmjs.org/util-deprecate 299ms (from cache)
+252 http fetch GET 304 https://registry.npmjs.org/process-nextick-args 303ms (from cache)
+253 silly pacote range manifest for string_decoder@~1.1.1 fetched in 306ms
+254 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+255 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 321ms
+256 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+257 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 325ms
+258 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+259 http fetch GET 304 https://registry.npmjs.org/isarray 339ms (from cache)
+260 silly pacote range manifest for isarray@~1.0.0 fetched in 346ms
+261 silly resolveWithNewModule isarray@1.0.0 checking installable status
+262 http fetch GET 304 https://registry.npmjs.org/buffer-fill 165ms (from cache)
+263 http fetch GET 304 https://registry.npmjs.org/buffer-alloc-unsafe 169ms (from cache)
+264 silly pacote range manifest for buffer-alloc-unsafe@^1.1.0 fetched in 179ms
+265 silly resolveWithNewModule buffer-alloc-unsafe@1.1.0 checking installable status
+266 silly pacote range manifest for buffer-fill@^1.0.0 fetched in 188ms
+267 silly resolveWithNewModule buffer-fill@1.0.0 checking installable status
+268 silly pacote range manifest for file-type@^6.1.0 fetched in 41ms
+269 silly resolveWithNewModule file-type@6.2.0 checking installable status
+270 http fetch GET 304 https://registry.npmjs.org/unbzip2-stream 101ms (from cache)
+271 silly pacote range manifest for unbzip2-stream@^1.0.9 fetched in 107ms
+272 silly resolveWithNewModule unbzip2-stream@1.3.0 checking installable status
+273 http fetch GET 304 https://registry.npmjs.org/seek-bzip 125ms (from cache)
+274 silly pacote range manifest for seek-bzip@^1.0.5 fetched in 129ms
+275 silly resolveWithNewModule seek-bzip@1.0.5 checking installable status
+276 silly pacote range manifest for commander@~2.8.1 fetched in 16ms
+277 silly resolveWithNewModule commander@2.8.1 checking installable status
+278 http fetch GET 304 https://registry.npmjs.org/graceful-readlink 64ms (from cache)
+279 silly pacote range manifest for graceful-readlink@>= 1.0.0 fetched in 67ms
+280 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+281 silly pacote range manifest for buffer@^3.0.1 fetched in 30ms
+282 silly resolveWithNewModule buffer@3.6.0 checking installable status
+283 http fetch GET 304 https://registry.npmjs.org/through 141ms (from cache)
+284 silly pacote range manifest for through@^2.3.6 fetched in 159ms
+285 silly resolveWithNewModule through@2.3.8 checking installable status
+286 silly pacote version manifest for base64-js@0.0.8 fetched in 21ms
+287 silly resolveWithNewModule base64-js@0.0.8 checking installable status
+288 silly pacote range manifest for file-type@^3.8.0 fetched in 19ms
+289 silly resolveWithNewModule file-type@3.9.0 checking installable status
+290 silly pacote range manifest for get-stream@^2.2.0 fetched in 21ms
+291 silly resolveWithNewModule get-stream@2.3.1 checking installable status
+292 http fetch GET 304 https://registry.npmjs.org/yauzl 110ms (from cache)
+293 silly pacote range manifest for yauzl@^2.4.2 fetched in 123ms
+294 silly resolveWithNewModule yauzl@2.10.0 checking installable status
+295 http fetch GET 304 https://registry.npmjs.org/object-assign 121ms (from cache)
+296 silly pacote range manifest for object-assign@^4.0.1 fetched in 141ms
+297 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+298 http fetch GET 304 https://registry.npmjs.org/fd-slicer 103ms (from cache)
+299 http fetch GET 304 https://registry.npmjs.org/buffer-crc32 106ms (from cache)
+300 silly pacote range manifest for fd-slicer@~1.1.0 fetched in 110ms
+301 silly resolveWithNewModule fd-slicer@1.1.0 checking installable status
+302 silly pacote range manifest for buffer-crc32@~0.2.3 fetched in 131ms
+303 silly resolveWithNewModule buffer-crc32@0.2.13 checking installable status
+304 http fetch GET 304 https://registry.npmjs.org/pend 113ms (from cache)
+305 silly pacote range manifest for pend@~1.2.0 fetched in 175ms
+306 silly resolveWithNewModule pend@1.2.0 checking installable status
+307 http fetch GET 304 https://registry.npmjs.org/pify 113ms (from cache)
+308 silly pacote range manifest for pify@^3.0.0 fetched in 182ms
+309 silly resolveWithNewModule pify@3.0.0 checking installable status
+310 http fetch GET 304 https://registry.npmjs.org/is-natural-number 149ms (from cache)
+311 silly pacote range manifest for is-natural-number@^4.0.1 fetched in 179ms
+312 silly resolveWithNewModule is-natural-number@4.0.1 checking installable status
+313 http fetch GET 304 https://registry.npmjs.org/nano-json-stream-parser 139ms (from cache)
+314 http fetch GET 304 https://registry.npmjs.org/servify 185ms (from cache)
+315 http fetch GET 304 https://registry.npmjs.org/keccakjs 196ms (from cache)
+316 http fetch GET 304 https://registry.npmjs.org/bn.js 198ms (from cache)
+317 silly pacote range manifest for nano-json-stream-parser@^0.1.2 fetched in 203ms
+318 silly resolveWithNewModule nano-json-stream-parser@0.1.2 checking installable status
+319 silly pacote range manifest for servify@^0.1.12 fetched in 204ms
+320 silly resolveWithNewModule servify@0.1.12 checking installable status
+321 http fetch GET 304 https://registry.npmjs.org/ws 205ms (from cache)
+322 silly pacote range manifest for keccakjs@^0.2.1 fetched in 218ms
+323 silly resolveWithNewModule keccakjs@0.2.1 checking installable status
+324 http fetch GET 304 https://registry.npmjs.org/elliptic 225ms (from cache)
+325 silly pacote range manifest for ws@^3.0.0 fetched in 225ms
+326 silly resolveWithNewModule ws@3.3.3 checking installable status
+327 silly pacote range manifest for elliptic@^6.4.0 fetched in 246ms
+328 silly resolveWithNewModule elliptic@6.4.1 checking installable status
+329 silly pacote range manifest for bn.js@^4.11.6 fetched in 248ms
+330 silly resolveWithNewModule bn.js@4.11.8 checking installable status
+331 http fetch GET 304 https://registry.npmjs.org/minimalistic-assert 116ms (from cache)
+332 http fetch GET 304 https://registry.npmjs.org/brorand 140ms (from cache)
+333 http fetch GET 304 https://registry.npmjs.org/hmac-drbg 140ms (from cache)
+334 http fetch GET 304 https://registry.npmjs.org/hash.js 143ms (from cache)
+335 silly pacote range manifest for brorand@^1.0.1 fetched in 171ms
+336 silly resolveWithNewModule brorand@1.1.0 checking installable status
+337 silly pacote range manifest for hmac-drbg@^1.0.0 fetched in 171ms
+338 silly resolveWithNewModule hmac-drbg@1.0.1 checking installable status
+339 silly pacote range manifest for hash.js@^1.0.0 fetched in 173ms
+340 silly resolveWithNewModule hash.js@1.1.5 checking installable status
+341 silly pacote range manifest for minimalistic-assert@^1.0.0 fetched in 180ms
+342 silly resolveWithNewModule minimalistic-assert@1.0.1 checking installable status
+343 http fetch GET 304 https://registry.npmjs.org/minimalistic-crypto-utils 182ms (from cache)
+344 silly pacote range manifest for minimalistic-crypto-utils@^1.0.0 fetched in 184ms
+345 silly resolveWithNewModule minimalistic-crypto-utils@1.0.1 checking installable status
+346 http fetch GET 304 https://registry.npmjs.org/browserify-sha3 128ms (from cache)
+347 http fetch GET 304 https://registry.npmjs.org/sha3 135ms (from cache)
+348 silly pacote range manifest for sha3@^1.1.0 fetched in 138ms
+349 silly resolveWithNewModule sha3@1.2.2 checking installable status
+350 silly pacote range manifest for browserify-sha3@^0.0.1 fetched in 151ms
+351 silly resolveWithNewModule browserify-sha3@0.0.1 checking installable status
+352 http fetch GET 304 https://registry.npmjs.org/js-sha3 73ms (from cache)
+353 silly pacote range manifest for js-sha3@^0.3.1 fetched in 76ms
+354 silly resolveWithNewModule js-sha3@0.3.1 checking installable status
+355 http fetch GET 304 https://registry.npmjs.org/nan 157ms (from cache)
+356 silly pacote version manifest for nan@2.10.0 fetched in 220ms
+357 silly resolveWithNewModule nan@2.10.0 checking installable status
+358 http fetch GET 304 https://registry.npmjs.org/xhr 164ms (from cache)
+359 silly pacote range manifest for xhr@^2.3.3 fetched in 176ms
+360 silly resolveWithNewModule xhr@2.5.0 checking installable status
+361 http fetch GET 304 https://registry.npmjs.org/body-parser 202ms (from cache)
+362 http fetch GET 304 https://registry.npmjs.org/request 210ms (from cache)
+363 silly pacote range manifest for body-parser@^1.16.0 fetched in 219ms
+364 silly resolveWithNewModule body-parser@1.18.3 checking installable status
+365 http fetch GET 304 https://registry.npmjs.org/express 222ms (from cache)
+366 silly pacote range manifest for request@^2.79.0 fetched in 318ms
+367 silly resolveWithNewModule request@2.88.0 checking installable status
+368 http fetch GET 304 https://registry.npmjs.org/cors 326ms (from cache)
+369 silly pacote range manifest for express@^4.14.0 fetched in 355ms
+370 silly resolveWithNewModule express@4.16.3 checking installable status
+371 silly pacote range manifest for cors@^2.8.1 fetched in 430ms
+372 silly resolveWithNewModule cors@2.8.4 checking installable status
+373 silly pacote version manifest for debug@2.6.9 fetched in 192ms
+374 silly resolveWithNewModule debug@2.6.9 checking installable status
+375 http fetch GET 304 https://registry.npmjs.org/bytes 323ms (from cache)
+376 http fetch GET 304 https://registry.npmjs.org/on-finished 324ms (from cache)
+377 http fetch GET 304 https://registry.npmjs.org/content-type 327ms (from cache)
+378 http fetch GET 304 https://registry.npmjs.org/qs 334ms (from cache)
+379 silly pacote version manifest for bytes@3.0.0 fetched in 348ms
+380 silly resolveWithNewModule bytes@3.0.0 checking installable status
+381 http fetch GET 304 https://registry.npmjs.org/raw-body 343ms (from cache)
+382 http fetch GET 304 https://registry.npmjs.org/type-is 344ms (from cache)
+383 http fetch GET 304 https://registry.npmjs.org/depd 355ms (from cache)
+384 silly pacote range manifest for content-type@~1.0.4 fetched in 374ms
+385 silly resolveWithNewModule content-type@1.0.4 checking installable status
+386 silly pacote range manifest for type-is@~1.6.16 fetched in 370ms
+387 silly resolveWithNewModule type-is@1.6.16 checking installable status
+388 silly pacote range manifest for on-finished@~2.3.0 fetched in 376ms
+389 silly resolveWithNewModule on-finished@2.3.0 checking installable status
+390 http fetch GET 304 https://registry.npmjs.org/http-errors 380ms (from cache)
+391 http fetch GET 304 https://registry.npmjs.org/iconv-lite 397ms (from cache)
+392 silly pacote version manifest for qs@6.5.2 fetched in 397ms
+393 silly resolveWithNewModule qs@6.5.2 checking installable status
+394 silly pacote range manifest for depd@~1.1.2 fetched in 420ms
+395 silly resolveWithNewModule depd@1.1.2 checking installable status
+396 silly pacote version manifest for raw-body@2.3.3 fetched in 433ms
+397 silly resolveWithNewModule raw-body@2.3.3 checking installable status
+398 silly pacote range manifest for http-errors@~1.6.3 fetched in 453ms
+399 silly resolveWithNewModule http-errors@1.6.3 checking installable status
+400 silly pacote version manifest for iconv-lite@0.4.23 fetched in 466ms
+401 silly resolveWithNewModule iconv-lite@0.4.23 checking installable status
+402 http fetch GET 304 https://registry.npmjs.org/setprototypeof 112ms (from cache)
+403 http fetch GET 304 https://registry.npmjs.org/statuses 117ms (from cache)
+404 silly pacote version manifest for setprototypeof@1.1.0 fetched in 122ms
+405 silly resolveWithNewModule setprototypeof@1.1.0 checking installable status
+406 silly pacote range manifest for statuses@>= 1.4.0 < 2 fetched in 131ms
+407 silly resolveWithNewModule statuses@1.5.0 checking installable status
+408 http fetch GET 304 https://registry.npmjs.org/safer-buffer 137ms (from cache)
+409 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 143ms
+410 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+411 http fetch GET 304 https://registry.npmjs.org/ee-first 107ms (from cache)
+412 silly pacote version manifest for ee-first@1.1.1 fetched in 110ms
+413 silly resolveWithNewModule ee-first@1.1.1 checking installable status
+414 http fetch GET 304 https://registry.npmjs.org/unpipe 82ms (from cache)
+415 silly pacote version manifest for unpipe@1.0.0 fetched in 97ms
+416 silly resolveWithNewModule unpipe@1.0.0 checking installable status
+417 http fetch GET 304 https://registry.npmjs.org/media-typer 68ms (from cache)
+418 silly pacote version manifest for media-typer@0.3.0 fetched in 70ms
+419 silly resolveWithNewModule media-typer@0.3.0 checking installable status
+420 http fetch GET 304 https://registry.npmjs.org/mime-db 114ms (from cache)
+421 silly pacote range manifest for mime-db@~1.36.0 fetched in 136ms
+422 silly resolveWithNewModule mime-db@1.36.0 checking installable status
+423 http fetch GET 304 https://registry.npmjs.org/vary 97ms (from cache)
+424 silly pacote range manifest for vary@^1 fetched in 106ms
+425 silly resolveWithNewModule vary@1.1.2 checking installable status
+426 silly pacote version manifest for debug@2.6.9 fetched in 92ms
+427 silly resolveWithNewModule debug@2.6.9 checking installable status
+428 silly pacote version manifest for body-parser@1.18.2 fetched in 128ms
+429 silly resolveWithNewModule body-parser@1.18.2 checking installable status
+430 http fetch GET 304 https://registry.npmjs.org/cookie 290ms (from cache)
+431 http fetch GET 304 https://registry.npmjs.org/cookie-signature 296ms (from cache)
+432 http fetch GET 304 https://registry.npmjs.org/escape-html 299ms (from cache)
+433 http fetch GET 304 https://registry.npmjs.org/content-disposition 303ms (from cache)
+434 http fetch GET 304 https://registry.npmjs.org/array-flatten 309ms (from cache)
+435 silly pacote version manifest for cookie@0.3.1 fetched in 310ms
+436 silly resolveWithNewModule cookie@0.3.1 checking installable status
+437 http fetch GET 304 https://registry.npmjs.org/etag 316ms (from cache)
+438 silly pacote version manifest for cookie-signature@1.0.6 fetched in 322ms
+439 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+440 silly pacote range manifest for escape-html@~1.0.3 fetched in 326ms
+441 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+442 http fetch GET 304 https://registry.npmjs.org/finalhandler 233ms (from cache)
+443 silly pacote range manifest for etag@~1.8.1 fetched in 336ms
+444 silly resolveWithNewModule etag@1.8.1 checking installable status
+445 silly pacote version manifest for content-disposition@0.5.2 fetched in 355ms
+446 silly resolveWithNewModule content-disposition@0.5.2 checking installable status
+447 silly pacote version manifest for finalhandler@1.1.1 fetched in 261ms
+448 silly resolveWithNewModule finalhandler@1.1.1 checking installable status
+449 http fetch GET 304 https://registry.npmjs.org/accepts 363ms (from cache)
+450 http fetch GET 304 https://registry.npmjs.org/fresh 270ms (from cache)
+451 silly pacote version manifest for array-flatten@1.1.1 fetched in 408ms
+452 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+453 silly pacote range manifest for accepts@~1.3.5 fetched in 432ms
+454 silly resolveWithNewModule accepts@1.3.5 checking installable status
+455 silly pacote version manifest for qs@6.5.1 fetched in 81ms
+456 silly resolveWithNewModule qs@6.5.1 checking installable status
+457 silly pacote version manifest for fresh@0.5.2 fetched in 350ms
+458 silly resolveWithNewModule fresh@0.5.2 checking installable status
+459 http fetch GET 304 https://registry.npmjs.org/encodeurl 519ms (from cache)
+460 silly pacote version manifest for safe-buffer@5.1.1 fetched in 100ms
+461 silly resolveWithNewModule safe-buffer@5.1.1 checking installable status
+462 http fetch GET 304 https://registry.npmjs.org/merge-descriptors 243ms (from cache)
+463 silly pacote range manifest for statuses@~1.4.0 fetched in 27ms
+464 silly resolveWithNewModule statuses@1.4.0 checking installable status
+465 http fetch GET 304 https://registry.npmjs.org/methods 254ms (from cache)
+466 silly pacote range manifest for encodeurl@~1.0.2 fetched in 581ms
+467 silly resolveWithNewModule encodeurl@1.0.2 checking installable status
+468 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 280ms
+469 silly resolveWithNewModule merge-descriptors@1.0.1 checking installable status
+470 http fetch GET 304 https://registry.npmjs.org/parseurl 272ms (from cache)
+471 http fetch GET 304 https://registry.npmjs.org/proxy-addr 256ms (from cache)
+472 http fetch GET 304 https://registry.npmjs.org/path-to-regexp 268ms (from cache)
+473 silly pacote range manifest for methods@~1.1.2 fetched in 290ms
+474 silly resolveWithNewModule methods@1.1.2 checking installable status
+475 http fetch GET 304 https://registry.npmjs.org/range-parser 219ms (from cache)
+476 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 288ms
+477 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+478 silly pacote range manifest for proxy-addr@~2.0.3 fetched in 289ms
+479 silly resolveWithNewModule proxy-addr@2.0.4 checking installable status
+480 http fetch GET 304 https://registry.npmjs.org/send 200ms (from cache)
+481 silly pacote range manifest for range-parser@~1.2.0 fetched in 244ms
+482 silly resolveWithNewModule range-parser@1.2.0 checking installable status
+483 silly pacote range manifest for parseurl@~1.3.2 fetched in 321ms
+484 silly resolveWithNewModule parseurl@1.3.2 checking installable status
+485 http fetch GET 304 https://registry.npmjs.org/serve-static 180ms (from cache)
+486 silly pacote version manifest for send@0.16.2 fetched in 219ms
+487 silly resolveWithNewModule send@0.16.2 checking installable status
+488 silly pacote version manifest for serve-static@1.13.2 fetched in 205ms
+489 silly resolveWithNewModule serve-static@1.13.2 checking installable status
+490 http fetch GET 304 https://registry.npmjs.org/utils-merge 134ms (from cache)
+491 silly pacote version manifest for utils-merge@1.0.1 fetched in 146ms
+492 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+493 http fetch GET 304 https://registry.npmjs.org/negotiator 96ms (from cache)
+494 silly pacote version manifest for negotiator@0.6.1 fetched in 117ms
+495 silly resolveWithNewModule negotiator@0.6.1 checking installable status
+496 silly pacote version manifest for iconv-lite@0.4.19 fetched in 15ms
+497 silly resolveWithNewModule iconv-lite@0.4.19 checking installable status
+498 silly pacote version manifest for raw-body@2.3.2 fetched in 26ms
+499 silly resolveWithNewModule raw-body@2.3.2 checking installable status
+500 silly pacote version manifest for http-errors@1.6.2 fetched in 17ms
+501 silly resolveWithNewModule http-errors@1.6.2 checking installable status
+502 silly pacote version manifest for depd@1.1.1 fetched in 8ms
+503 silly resolveWithNewModule depd@1.1.1 checking installable status
+504 silly pacote version manifest for setprototypeof@1.0.3 fetched in 19ms
+505 silly resolveWithNewModule setprototypeof@1.0.3 checking installable status
+506 silly pacote version manifest for debug@2.6.9 fetched in 5ms
+507 silly resolveWithNewModule debug@2.6.9 checking installable status
+508 silly pacote range manifest for statuses@~1.4.0 fetched in 7ms
+509 silly resolveWithNewModule statuses@1.4.0 checking installable status
+510 http fetch GET 304 https://registry.npmjs.org/forwarded 70ms (from cache)
+511 http fetch GET 304 https://registry.npmjs.org/ipaddr.js 72ms (from cache)
+512 silly pacote range manifest for forwarded@~0.1.2 fetched in 80ms
+513 silly resolveWithNewModule forwarded@0.1.2 checking installable status
+514 silly pacote version manifest for ipaddr.js@1.8.0 fetched in 81ms
+515 silly resolveWithNewModule ipaddr.js@1.8.0 checking installable status
+516 silly pacote version manifest for debug@2.6.9 fetched in 10ms
+517 silly resolveWithNewModule debug@2.6.9 checking installable status
+518 silly pacote range manifest for statuses@~1.4.0 fetched in 10ms
+519 silly resolveWithNewModule statuses@1.4.0 checking installable status
+520 http fetch GET 304 https://registry.npmjs.org/destroy 80ms (from cache)
+521 silly pacote range manifest for destroy@~1.0.4 fetched in 100ms
+522 silly resolveWithNewModule destroy@1.0.4 checking installable status
+523 http fetch GET 304 https://registry.npmjs.org/mime 131ms (from cache)
+524 silly pacote version manifest for mime@1.4.1 fetched in 135ms
+525 silly resolveWithNewModule mime@1.4.1 checking installable status
+526 http fetch GET 304 https://registry.npmjs.org/forever-agent 371ms (from cache)
+527 http fetch GET 304 https://registry.npmjs.org/aws4 376ms (from cache)
+528 http fetch GET 304 https://registry.npmjs.org/aws-sign2 383ms (from cache)
+529 http fetch GET 304 https://registry.npmjs.org/caseless 382ms (from cache)
+530 http fetch GET 304 https://registry.npmjs.org/form-data 378ms (from cache)
+531 http fetch GET 304 https://registry.npmjs.org/is-typedarray 377ms (from cache)
+532 http fetch GET 304 https://registry.npmjs.org/extend 389ms (from cache)
+533 silly pacote range manifest for forever-agent@~0.6.1 fetched in 389ms
+534 silly resolveWithNewModule forever-agent@0.6.1 checking installable status
+535 silly pacote range manifest for aws-sign2@~0.7.0 fetched in 401ms
+536 silly resolveWithNewModule aws-sign2@0.7.0 checking installable status
+537 silly pacote range manifest for form-data@~2.3.2 fetched in 398ms
+538 silly resolveWithNewModule form-data@2.3.2 checking installable status
+539 silly pacote range manifest for caseless@~0.12.0 fetched in 404ms
+540 silly resolveWithNewModule caseless@0.12.0 checking installable status
+541 silly pacote range manifest for aws4@^1.8.0 fetched in 410ms
+542 silly resolveWithNewModule aws4@1.8.0 checking installable status
+543 silly pacote range manifest for is-typedarray@~1.0.0 fetched in 403ms
+544 silly resolveWithNewModule is-typedarray@1.0.0 checking installable status
+545 silly pacote range manifest for extend@~3.0.2 fetched in 419ms
+546 silly resolveWithNewModule extend@3.0.2 checking installable status
+547 http fetch GET 304 https://registry.npmjs.org/har-validator 527ms (from cache)
+548 silly pacote range manifest for har-validator@~5.1.0 fetched in 555ms
+549 silly resolveWithNewModule har-validator@5.1.0 checking installable status
+550 http fetch GET 304 https://registry.npmjs.org/http-signature 659ms (from cache)
+551 http fetch GET 304 https://registry.npmjs.org/combined-stream 667ms (from cache)
+552 http fetch GET 304 https://registry.npmjs.org/json-stringify-safe 271ms (from cache)
+553 http fetch GET 304 https://registry.npmjs.org/oauth-sign 266ms (from cache)
+554 http fetch GET 304 https://registry.npmjs.org/performance-now 269ms (from cache)
+555 silly pacote range manifest for http-signature@~1.2.0 fetched in 690ms
+556 silly resolveWithNewModule http-signature@1.2.0 checking installable status
+557 silly pacote range manifest for oauth-sign@~0.9.0 fetched in 304ms
+558 silly resolveWithNewModule oauth-sign@0.9.0 checking installable status
+559 http fetch GET 304 https://registry.npmjs.org/tough-cookie 300ms (from cache)
+560 http fetch GET 304 https://registry.npmjs.org/tunnel-agent 300ms (from cache)
+561 http fetch GET 304 https://registry.npmjs.org/uuid 295ms (from cache)
+562 silly pacote range manifest for performance-now@^2.1.0 fetched in 315ms
+563 silly resolveWithNewModule performance-now@2.1.0 checking installable status
+564 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 309ms
+565 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+566 http fetch GET 304 https://registry.npmjs.org/isstream 331ms (from cache)
+567 silly pacote range manifest for uuid@^3.3.2 fetched in 304ms
+568 silly resolveWithNewModule uuid@3.3.2 checking installable status
+569 silly pacote range manifest for json-stringify-safe@~5.0.1 fetched in 330ms
+570 silly resolveWithNewModule json-stringify-safe@5.0.1 checking installable status
+571 silly pacote range manifest for isstream@~0.1.2 fetched in 341ms
+572 silly resolveWithNewModule isstream@0.1.2 checking installable status
+573 silly pacote range manifest for combined-stream@~1.0.6 fetched in 737ms
+574 silly resolveWithNewModule combined-stream@1.0.7 checking installable status
+575 silly pacote range manifest for tough-cookie@~2.4.3 fetched in 337ms
+576 silly resolveWithNewModule tough-cookie@2.4.3 checking installable status
+577 http fetch GET 304 https://registry.npmjs.org/delayed-stream 95ms (from cache)
+578 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 98ms
+579 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+580 silly pacote version manifest for combined-stream@1.0.6 fetched in 51ms
+581 silly resolveWithNewModule combined-stream@1.0.6 checking installable status
+582 http fetch GET 304 https://registry.npmjs.org/asynckit 103ms (from cache)
+583 silly pacote range manifest for asynckit@^0.4.0 fetched in 140ms
+584 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+585 http fetch GET 304 https://registry.npmjs.org/har-schema 88ms (from cache)
+586 silly pacote range manifest for har-schema@^2.0.0 fetched in 93ms
+587 silly resolveWithNewModule har-schema@2.0.0 checking installable status
+588 http fetch GET 304 https://registry.npmjs.org/ajv 134ms (from cache)
+589 silly pacote range manifest for ajv@^5.3.0 fetched in 159ms
+590 silly resolveWithNewModule ajv@5.5.2 checking installable status
+591 http fetch GET 304 https://registry.npmjs.org/json-schema-traverse 161ms (from cache)
+592 http fetch GET 304 https://registry.npmjs.org/co 175ms (from cache)
+593 http fetch GET 304 https://registry.npmjs.org/fast-deep-equal 176ms (from cache)
+594 silly pacote range manifest for json-schema-traverse@^0.3.0 fetched in 182ms
+595 silly resolveWithNewModule json-schema-traverse@0.3.1 checking installable status
+596 silly pacote range manifest for co@^4.6.0 fetched in 187ms
+597 silly resolveWithNewModule co@4.6.0 checking installable status
+598 silly pacote range manifest for fast-deep-equal@^1.0.0 fetched in 188ms
+599 silly resolveWithNewModule fast-deep-equal@1.1.0 checking installable status
+600 http fetch GET 304 https://registry.npmjs.org/fast-json-stable-stringify 189ms (from cache)
+601 silly pacote range manifest for fast-json-stable-stringify@^2.0.0 fetched in 193ms
+602 silly resolveWithNewModule fast-json-stable-stringify@2.0.0 checking installable status
+603 http fetch GET 304 https://registry.npmjs.org/assert-plus 130ms (from cache)
+604 silly pacote range manifest for assert-plus@^1.0.0 fetched in 133ms
+605 silly resolveWithNewModule assert-plus@1.0.0 checking installable status
+606 http fetch GET 304 https://registry.npmjs.org/sshpk 139ms (from cache)
+607 silly pacote range manifest for sshpk@^1.7.0 fetched in 145ms
+608 silly resolveWithNewModule sshpk@1.14.2 checking installable status
+609 http fetch GET 304 https://registry.npmjs.org/jsprim 148ms (from cache)
+610 silly pacote range manifest for jsprim@^1.2.2 fetched in 152ms
+611 silly resolveWithNewModule jsprim@1.4.1 checking installable status
+612 http fetch GET 304 https://registry.npmjs.org/json-schema 136ms (from cache)
+613 silly pacote version manifest for json-schema@0.2.3 fetched in 141ms
+614 silly resolveWithNewModule json-schema@0.2.3 checking installable status
+615 http fetch GET 304 https://registry.npmjs.org/extsprintf 178ms (from cache)
+616 http fetch GET 304 https://registry.npmjs.org/verror 178ms (from cache)
+617 silly pacote version manifest for extsprintf@1.3.0 fetched in 182ms
+618 silly resolveWithNewModule extsprintf@1.3.0 checking installable status
+619 silly pacote version manifest for verror@1.10.0 fetched in 182ms
+620 silly resolveWithNewModule verror@1.10.0 checking installable status
+621 http fetch GET 304 https://registry.npmjs.org/getpass 231ms (from cache)
+622 http fetch GET 304 https://registry.npmjs.org/asn1 248ms (from cache)
+623 http fetch GET 304 https://registry.npmjs.org/dashdash 250ms (from cache)
+624 silly pacote range manifest for getpass@^0.1.1 fetched in 253ms
+625 silly resolveWithNewModule getpass@0.1.7 checking installable status
+626 http fetch GET 304 https://registry.npmjs.org/tweetnacl 252ms (from cache)
+627 http fetch GET 304 https://registry.npmjs.org/bcrypt-pbkdf 254ms (from cache)
+628 silly pacote range manifest for asn1@~0.2.3 fetched in 260ms
+629 silly resolveWithNewModule asn1@0.2.4 checking installable status
+630 silly pacote range manifest for dashdash@^1.12.0 fetched in 265ms
+631 silly resolveWithNewModule dashdash@1.14.1 checking installable status
+632 http fetch GET 304 https://registry.npmjs.org/ecc-jsbn 264ms (from cache)
+633 silly pacote range manifest for tweetnacl@~0.14.0 fetched in 267ms
+634 silly resolveWithNewModule tweetnacl@0.14.5 checking installable status
+635 silly pacote range manifest for bcrypt-pbkdf@^1.0.0 fetched in 268ms
+636 silly resolveWithNewModule bcrypt-pbkdf@1.0.2 checking installable status
+637 silly pacote range manifest for ecc-jsbn@~0.1.1 fetched in 271ms
+638 silly resolveWithNewModule ecc-jsbn@0.1.2 checking installable status
+639 http fetch GET 304 https://registry.npmjs.org/jsbn 274ms (from cache)
+640 silly pacote range manifest for jsbn@~0.1.0 fetched in 277ms
+641 silly resolveWithNewModule jsbn@0.1.1 checking installable status
+642 http fetch GET 304 https://registry.npmjs.org/punycode 433ms (from cache)
+643 silly pacote range manifest for punycode@^1.4.1 fetched in 438ms
+644 silly resolveWithNewModule punycode@1.4.1 checking installable status
+645 http fetch GET 304 https://registry.npmjs.org/psl 451ms (from cache)
+646 silly pacote range manifest for psl@^1.1.24 fetched in 455ms
+647 silly resolveWithNewModule psl@1.1.29 checking installable status
+648 http fetch GET 304 https://registry.npmjs.org/parse-headers 97ms (from cache)
+649 silly pacote range manifest for parse-headers@^2.0.0 fetched in 101ms
+650 silly resolveWithNewModule parse-headers@2.0.1 checking installable status
+651 http fetch GET 304 https://registry.npmjs.org/is-function 121ms (from cache)
+652 silly pacote range manifest for is-function@^1.0.1 fetched in 125ms
+653 silly resolveWithNewModule is-function@1.0.1 checking installable status
+654 http fetch GET 304 https://registry.npmjs.org/global 137ms (from cache)
+655 silly pacote range manifest for global@~4.3.0 fetched in 169ms
+656 silly resolveWithNewModule global@4.3.2 checking installable status
+657 http fetch GET 304 https://registry.npmjs.org/min-document 74ms (from cache)
+658 silly pacote range manifest for min-document@^2.19.0 fetched in 93ms
+659 silly resolveWithNewModule min-document@2.19.0 checking installable status
+660 http fetch GET 304 https://registry.npmjs.org/process 96ms (from cache)
+661 silly pacote range manifest for process@~0.5.1 fetched in 106ms
+662 silly resolveWithNewModule process@0.5.2 checking installable status
+663 http fetch GET 304 https://registry.npmjs.org/dom-walk 78ms (from cache)
+664 silly pacote range manifest for dom-walk@^0.1.0 fetched in 93ms
+665 silly resolveWithNewModule dom-walk@0.1.1 checking installable status
+666 http fetch GET 304 https://registry.npmjs.org/trim 103ms (from cache)
+667 http fetch GET 304 https://registry.npmjs.org/for-each 132ms (from cache)
+668 silly pacote range manifest for for-each@^0.3.2 fetched in 136ms
+669 silly resolveWithNewModule for-each@0.3.3 checking installable status
+670 silly pacote version manifest for trim@0.0.1 fetched in 138ms
+671 silly resolveWithNewModule trim@0.0.1 checking installable status
+672 http fetch GET 304 https://registry.npmjs.org/is-callable 101ms (from cache)
+673 silly pacote range manifest for is-callable@^1.1.3 fetched in 106ms
+674 silly resolveWithNewModule is-callable@1.1.4 checking installable status
+675 http fetch GET 304 https://registry.npmjs.org/async-limiter 86ms (from cache)
+676 silly pacote range manifest for async-limiter@~1.0.0 fetched in 109ms
+677 silly resolveWithNewModule async-limiter@1.0.0 checking installable status
+678 http fetch GET 304 https://registry.npmjs.org/ultron 139ms (from cache)
+679 silly pacote range manifest for ultron@~1.1.0 fetched in 173ms
+680 silly resolveWithNewModule ultron@1.1.1 checking installable status
+681 http fetch GET 304 https://registry.npmjs.org/xhr-request 62ms (from cache)
+682 silly pacote range manifest for xhr-request@^1.0.1 fetched in 65ms
+683 silly resolveWithNewModule xhr-request@1.1.0 checking installable status
+684 http fetch GET 304 https://registry.npmjs.org/query-string 124ms (from cache)
+685 silly pacote range manifest for query-string@^5.0.1 fetched in 137ms
+686 silly resolveWithNewModule query-string@5.1.1 checking installable status
+687 http fetch GET 304 https://registry.npmjs.org/buffer-to-arraybuffer 142ms (from cache)
+688 http fetch GET 304 https://registry.npmjs.org/url-set-query 140ms (from cache)
+689 silly pacote range manifest for buffer-to-arraybuffer@^0.0.5 fetched in 155ms
+690 silly resolveWithNewModule buffer-to-arraybuffer@0.0.5 checking installable status
+691 silly pacote range manifest for url-set-query@^1.0.0 fetched in 153ms
+692 silly resolveWithNewModule url-set-query@1.0.0 checking installable status
+693 http fetch GET 304 https://registry.npmjs.org/simple-get 168ms (from cache)
+694 silly pacote range manifest for simple-get@^2.7.0 fetched in 174ms
+695 silly resolveWithNewModule simple-get@2.8.1 checking installable status
+696 http fetch GET 304 https://registry.npmjs.org/decode-uri-component 114ms (from cache)
+697 http fetch GET 304 https://registry.npmjs.org/strict-uri-encode 118ms (from cache)
+698 silly pacote range manifest for decode-uri-component@^0.2.0 fetched in 131ms
+699 silly resolveWithNewModule decode-uri-component@0.2.0 checking installable status
+700 silly pacote range manifest for strict-uri-encode@^1.0.0 fetched in 139ms
+701 silly resolveWithNewModule strict-uri-encode@1.1.0 checking installable status
+702 http fetch GET 304 https://registry.npmjs.org/simple-concat 66ms (from cache)
+703 silly pacote range manifest for simple-concat@^1.0.0 fetched in 70ms
+704 silly resolveWithNewModule simple-concat@1.0.0 checking installable status
+705 silly pacote range manifest for fs-extra@^2.0.0 fetched in 6ms
+706 silly resolveWithNewModule fs-extra@2.1.2 checking installable status
+707 http fetch GET 304 https://registry.npmjs.org/any-promise 88ms (from cache)
+708 silly pacote range manifest for any-promise@^1.3.0 fetched in 95ms
+709 silly resolveWithNewModule any-promise@1.3.0 checking installable status
+710 http fetch GET 304 https://registry.npmjs.org/thenify-all 113ms (from cache)
+711 http fetch GET 304 https://registry.npmjs.org/mz 193ms (from cache)
+712 silly pacote range manifest for thenify-all@^1.6.0 fetched in 217ms
+713 silly resolveWithNewModule thenify-all@1.6.0 checking installable status
+714 silly pacote range manifest for mz@^2.6.0 fetched in 235ms
+715 silly resolveWithNewModule mz@2.7.0 checking installable status
+716 http fetch GET 304 https://registry.npmjs.org/thenify 176ms (from cache)
+717 silly pacote range manifest for thenify@>= 3.1.0 < 4 fetched in 180ms
+718 silly resolveWithNewModule thenify@3.3.0 checking installable status
+719 silly pacote range manifest for bluebird@^2.9.34 fetched in 37ms
+720 silly resolveWithNewModule bluebird@2.11.0 checking installable status
+721 http fetch GET 304 https://registry.npmjs.org/mout 187ms (from cache)
+722 silly pacote range manifest for mout@^0.11.0 fetched in 202ms
+723 silly resolveWithNewModule mout@0.11.1 checking installable status
+724 http fetch GET 304 https://registry.npmjs.org/tar 212ms (from cache)
+725 http fetch GET 304 https://registry.npmjs.org/fstream 236ms (from cache)
+726 silly pacote range manifest for tar@^2.1.1 fetched in 237ms
+727 silly resolveWithNewModule tar@2.2.1 checking installable status
+728 silly pacote range manifest for fstream@^1.0.8 fetched in 250ms
+729 silly resolveWithNewModule fstream@1.0.11 checking installable status
+730 http fetch GET 304 https://registry.npmjs.org/block-stream 140ms (from cache)
+731 silly pacote range manifest for block-stream@* fetched in 182ms
+732 silly resolveWithNewModule block-stream@0.0.9 checking installable status
+733 http fetch GET 304 https://registry.npmjs.org/web3-core-helpers 166ms (from cache)
+734 http fetch GET 304 https://registry.npmjs.org/web3-core-requestmanager 167ms (from cache)
+735 http fetch GET 304 https://registry.npmjs.org/web3-core-method 170ms (from cache)
+736 silly pacote version manifest for web3-core-helpers@1.0.0-beta.35 fetched in 174ms
+737 silly resolveWithNewModule web3-core-helpers@1.0.0-beta.35 checking installable status
+738 silly pacote version manifest for web3-core-requestmanager@1.0.0-beta.35 fetched in 175ms
+739 silly resolveWithNewModule web3-core-requestmanager@1.0.0-beta.35 checking installable status
+740 silly pacote version manifest for web3-core-method@1.0.0-beta.35 fetched in 179ms
+741 silly resolveWithNewModule web3-core-method@1.0.0-beta.35 checking installable status
+742 http fetch GET 304 https://registry.npmjs.org/web3-eth-iban 132ms (from cache)
+743 silly pacote version manifest for web3-eth-iban@1.0.0-beta.35 fetched in 142ms
+744 silly resolveWithNewModule web3-eth-iban@1.0.0-beta.35 checking installable status
+745 silly pacote version manifest for bn.js@4.11.6 fetched in 3ms
+746 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+747 silly pacote version manifest for bn.js@4.11.6 fetched in 12ms
+748 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+749 http fetch GET 304 https://registry.npmjs.org/randomhex 113ms (from cache)
+750 silly pacote version manifest for randomhex@0.1.5 fetched in 132ms
+751 silly resolveWithNewModule randomhex@0.1.5 checking installable status
+752 http fetch GET 304 https://registry.npmjs.org/ethjs-unit 136ms (from cache)
+753 http fetch GET 304 https://registry.npmjs.org/number-to-bn 140ms (from cache)
+754 silly pacote version manifest for ethjs-unit@0.1.6 fetched in 144ms
+755 silly resolveWithNewModule ethjs-unit@0.1.6 checking installable status
+756 silly pacote version manifest for number-to-bn@1.7.0 fetched in 147ms
+757 silly resolveWithNewModule number-to-bn@1.7.0 checking installable status
+758 http fetch GET 304 https://registry.npmjs.org/utf8 223ms (from cache)
+759 silly pacote version manifest for utf8@2.1.1 fetched in 228ms
+760 silly resolveWithNewModule utf8@2.1.1 checking installable status
+761 silly pacote version manifest for bn.js@4.11.6 fetched in 3ms
+762 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+763 silly pacote version manifest for bn.js@4.11.6 fetched in 3ms
+764 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+765 http fetch GET 304 https://registry.npmjs.org/strip-hex-prefix 68ms (from cache)
+766 silly pacote version manifest for strip-hex-prefix@1.0.0 fetched in 83ms
+767 silly resolveWithNewModule strip-hex-prefix@1.0.0 checking installable status
+768 http fetch GET 304 https://registry.npmjs.org/is-hex-prefixed 96ms (from cache)
+769 silly pacote version manifest for is-hex-prefixed@1.0.0 fetched in 100ms
+770 silly resolveWithNewModule is-hex-prefixed@1.0.0 checking installable status
+771 http fetch GET 304 https://registry.npmjs.org/web3-core-promievent 91ms (from cache)
+772 silly pacote version manifest for web3-core-promievent@1.0.0-beta.35 fetched in 96ms
+773 silly resolveWithNewModule web3-core-promievent@1.0.0-beta.35 checking installable status
+774 http fetch GET 304 https://registry.npmjs.org/web3-core-subscriptions 118ms (from cache)
+775 silly pacote version manifest for web3-core-subscriptions@1.0.0-beta.35 fetched in 129ms
+776 silly resolveWithNewModule web3-core-subscriptions@1.0.0-beta.35 checking installable status
+777 http fetch GET 304 https://registry.npmjs.org/eventemitter3 66ms (from cache)
+778 silly pacote version manifest for eventemitter3@1.1.1 fetched in 85ms
+779 silly resolveWithNewModule eventemitter3@1.1.1 checking installable status
+780 http fetch GET 304 https://registry.npmjs.org/web3-providers-http 84ms (from cache)
+781 http fetch GET 304 https://registry.npmjs.org/web3-providers-ws 90ms (from cache)
+782 silly pacote version manifest for web3-providers-http@1.0.0-beta.35 fetched in 105ms
+783 silly resolveWithNewModule web3-providers-http@1.0.0-beta.35 checking installable status
+784 silly pacote version manifest for web3-providers-ws@1.0.0-beta.35 fetched in 150ms
+785 silly resolveWithNewModule web3-providers-ws@1.0.0-beta.35 checking installable status
+786 http fetch GET 304 https://registry.npmjs.org/web3-providers-ipc 167ms (from cache)
+787 silly pacote version manifest for web3-providers-ipc@1.0.0-beta.35 fetched in 173ms
+788 silly resolveWithNewModule web3-providers-ipc@1.0.0-beta.35 checking installable status
+789 http fetch GET 304 https://registry.npmjs.org/xhr2-cookies 433ms (from cache)
+790 silly pacote version manifest for xhr2-cookies@1.1.0 fetched in 443ms
+791 silly resolveWithNewModule xhr2-cookies@1.1.0 checking installable status
+792 http fetch GET 304 https://registry.npmjs.org/cookiejar 124ms (from cache)
+793 silly pacote range manifest for cookiejar@^2.1.1 fetched in 135ms
+794 silly resolveWithNewModule cookiejar@2.1.2 checking installable status
+795 http fetch GET 304 https://registry.npmjs.org/oboe 129ms (from cache)
+796 silly pacote version manifest for oboe@2.1.3 fetched in 135ms
+797 silly resolveWithNewModule oboe@2.1.3 checking installable status
+798 http fetch GET 304 https://registry.npmjs.org/http-https 127ms (from cache)
+799 silly pacote range manifest for http-https@^1.0.0 fetched in 148ms
+800 silly resolveWithNewModule http-https@1.0.0 checking installable status
+801 silly pacote git manifest for websocket@git://github.com/frozeman/WebSocket-Node.git#browserifyCompatible fetched in 636ms
+802 silly resolveWithNewModule websocket@1.0.26 checking installable status
+803 silly pacote range manifest for debug@^2.2.0 fetched in 83ms
+804 silly resolveWithNewModule debug@2.6.9 checking installable status
+805 http fetch GET 304 https://registry.npmjs.org/typedarray-to-buffer 187ms (from cache)
+806 silly pacote range manifest for typedarray-to-buffer@^3.1.2 fetched in 198ms
+807 silly resolveWithNewModule typedarray-to-buffer@3.1.5 checking installable status
+808 http fetch GET 304 https://registry.npmjs.org/yaeti 210ms (from cache)
+809 silly pacote range manifest for yaeti@^0.0.6 fetched in 217ms
+810 silly resolveWithNewModule yaeti@0.0.6 checking installable status
+811 http fetch GET 304 https://registry.npmjs.org/web3-eth-contract 138ms (from cache)
+812 silly pacote version manifest for web3-eth-contract@1.0.0-beta.35 fetched in 144ms
+813 silly resolveWithNewModule web3-eth-contract@1.0.0-beta.35 checking installable status
+814 http fetch GET 304 https://registry.npmjs.org/web3-eth-abi 156ms (from cache)
+815 silly pacote version manifest for web3-eth-abi@1.0.0-beta.35 fetched in 162ms
+816 silly resolveWithNewModule web3-eth-abi@1.0.0-beta.35 checking installable status
+817 http fetch GET 304 https://registry.npmjs.org/web3-eth-accounts 250ms (from cache)
+818 silly pacote version manifest for web3-eth-accounts@1.0.0-beta.35 fetched in 257ms
+819 silly resolveWithNewModule web3-eth-accounts@1.0.0-beta.35 checking installable status
+820 silly pacote version manifest for bn.js@4.11.6 fetched in 4ms
+821 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+822 silly pacote version manifest for uuid@2.0.1 fetched in 9ms
+823 silly resolveWithNewModule uuid@2.0.1 checking installable status
+824 silly pacote version manifest for eth-lib@0.2.7 fetched in 14ms
+825 silly resolveWithNewModule eth-lib@0.2.7 checking installable status
+826 http fetch GET 304 https://registry.npmjs.org/scrypt.js 98ms (from cache)
+827 silly pacote version manifest for scrypt.js@0.2.0 fetched in 117ms
+828 silly resolveWithNewModule scrypt.js@0.2.0 checking installable status
+829 http fetch GET 304 https://registry.npmjs.org/crypto-browserify 199ms (from cache)
+830 silly pacote version manifest for crypto-browserify@3.12.0 fetched in 232ms
+831 silly resolveWithNewModule crypto-browserify@3.12.0 checking installable status
+832 http fetch GET 304 https://registry.npmjs.org/browserify-cipher 337ms (from cache)
+833 http fetch GET 304 https://registry.npmjs.org/create-ecdh 540ms (from cache)
+834 silly pacote range manifest for browserify-cipher@^1.0.0 fetched in 554ms
+835 silly resolveWithNewModule browserify-cipher@1.0.1 checking installable status
+836 http fetch GET 304 https://registry.npmjs.org/browserify-sign 558ms (from cache)
+837 http fetch GET 304 https://registry.npmjs.org/create-hash 545ms (from cache)
+838 http fetch GET 304 https://registry.npmjs.org/pbkdf2 538ms (from cache)
+839 silly pacote range manifest for create-ecdh@^4.0.0 fetched in 568ms
+840 silly resolveWithNewModule create-ecdh@4.0.3 checking installable status
+841 http fetch GET 304 https://registry.npmjs.org/public-encrypt 551ms (from cache)
+842 http fetch GET 304 https://registry.npmjs.org/randomfill 551ms (from cache)
+843 silly pacote range manifest for browserify-sign@^4.0.0 fetched in 589ms
+844 silly resolveWithNewModule browserify-sign@4.0.4 checking installable status
+845 silly pacote range manifest for create-hash@^1.1.0 fetched in 579ms
+846 silly resolveWithNewModule create-hash@1.2.0 checking installable status
+847 silly pacote range manifest for randomfill@^1.0.3 fetched in 565ms
+848 silly resolveWithNewModule randomfill@1.0.4 checking installable status
+849 http fetch GET 304 https://registry.npmjs.org/diffie-hellman 573ms (from cache)
+850 http fetch GET 304 https://registry.npmjs.org/randombytes 573ms (from cache)
+851 silly pacote range manifest for pbkdf2@^3.0.3 fetched in 582ms
+852 silly resolveWithNewModule pbkdf2@3.0.17 checking installable status
+853 silly pacote range manifest for public-encrypt@^4.0.0 fetched in 584ms
+854 silly resolveWithNewModule public-encrypt@4.0.2 checking installable status
+855 http fetch GET 304 https://registry.npmjs.org/create-hmac 595ms (from cache)
+856 silly pacote range manifest for randombytes@^2.0.0 fetched in 587ms
+857 silly resolveWithNewModule randombytes@2.0.6 checking installable status
+858 silly pacote range manifest for diffie-hellman@^5.0.0 fetched in 600ms
+859 silly resolveWithNewModule diffie-hellman@5.0.3 checking installable status
+860 silly pacote range manifest for create-hmac@^1.1.0 fetched in 611ms
+861 silly resolveWithNewModule create-hmac@1.1.7 checking installable status
+862 http fetch GET 304 https://registry.npmjs.org/browserify-des 116ms (from cache)
+863 http fetch GET 304 https://registry.npmjs.org/evp_bytestokey 123ms (from cache)
+864 silly pacote range manifest for evp_bytestokey@^1.0.0 fetched in 140ms
+865 silly resolveWithNewModule evp_bytestokey@1.0.3 checking installable status
+866 silly pacote range manifest for browserify-des@^1.0.0 fetched in 144ms
+867 silly resolveWithNewModule browserify-des@1.0.2 checking installable status
+868 http fetch GET 304 https://registry.npmjs.org/browserify-aes 149ms (from cache)
+869 silly pacote range manifest for browserify-aes@^1.0.4 fetched in 180ms
+870 silly resolveWithNewModule browserify-aes@1.2.0 checking installable status
+871 http fetch GET 304 https://registry.npmjs.org/cipher-base 115ms (from cache)
+872 silly pacote range manifest for cipher-base@^1.0.0 fetched in 127ms
+873 silly resolveWithNewModule cipher-base@1.0.4 checking installable status
+874 http fetch GET 304 https://registry.npmjs.org/buffer-xor 141ms (from cache)
+875 silly pacote range manifest for buffer-xor@^1.0.3 fetched in 174ms
+876 silly resolveWithNewModule buffer-xor@1.0.3 checking installable status
+877 http fetch GET 304 https://registry.npmjs.org/md5.js 138ms (from cache)
+878 http fetch GET 304 https://registry.npmjs.org/ripemd160 155ms (from cache)
+879 silly pacote range manifest for md5.js@^1.3.4 fetched in 162ms
+880 silly resolveWithNewModule md5.js@1.3.4 checking installable status
+881 silly pacote range manifest for ripemd160@^2.0.1 fetched in 167ms
+882 silly resolveWithNewModule ripemd160@2.0.2 checking installable status
+883 http fetch GET 304 https://registry.npmjs.org/sha.js 177ms (from cache)
+884 silly pacote range manifest for sha.js@^2.4.0 fetched in 183ms
+885 silly resolveWithNewModule sha.js@2.4.11 checking installable status
+886 http fetch GET 304 https://registry.npmjs.org/hash-base 67ms (from cache)
+887 silly pacote range manifest for hash-base@^3.0.0 fetched in 80ms
+888 silly resolveWithNewModule hash-base@3.0.4 checking installable status
+889 http fetch GET 304 https://registry.npmjs.org/des.js 147ms (from cache)
+890 silly pacote range manifest for des.js@^1.0.0 fetched in 171ms
+891 silly resolveWithNewModule des.js@1.0.0 checking installable status
+892 http fetch GET 304 https://registry.npmjs.org/parse-asn1 127ms (from cache)
+893 silly pacote range manifest for parse-asn1@^5.0.0 fetched in 132ms
+894 silly resolveWithNewModule parse-asn1@5.1.1 checking installable status
+895 http fetch GET 304 https://registry.npmjs.org/browserify-rsa 142ms (from cache)
+896 silly pacote range manifest for browserify-rsa@^4.0.0 fetched in 147ms
+897 silly resolveWithNewModule browserify-rsa@4.0.1 checking installable status
+898 http fetch GET 304 https://registry.npmjs.org/asn1.js 139ms (from cache)
+899 silly pacote range manifest for asn1.js@^4.0.0 fetched in 145ms
+900 silly resolveWithNewModule asn1.js@4.10.1 checking installable status
+901 http fetch GET 304 https://registry.npmjs.org/miller-rabin 127ms (from cache)
+902 silly pacote range manifest for miller-rabin@^4.0.0 fetched in 132ms
+903 silly resolveWithNewModule miller-rabin@4.0.1 checking installable status
+904 http fetch GET 304 https://registry.npmjs.org/scryptsy 92ms (from cache)
+905 silly pacote range manifest for scryptsy@^1.2.1 fetched in 138ms
+906 silly resolveWithNewModule scryptsy@1.2.1 checking installable status
+907 http fetch GET 304 https://registry.npmjs.org/scrypt 146ms (from cache)
+908 silly pacote range manifest for scrypt@^6.0.2 fetched in 167ms
+909 silly resolveWithNewModule scrypt@6.0.3 checking installable status
+910 silly currentTree inbox@1.0.0
+910 silly currentTree +-- accepts@1.3.5
+910 silly currentTree +-- ajv@5.5.2
+910 silly currentTree +-- ansi-regex@2.1.1
+910 silly currentTree +-- any-promise@1.3.0
+910 silly currentTree +-- array-flatten@1.1.1
+910 silly currentTree +-- asn1.js@4.10.1
+910 silly currentTree +-- asn1@0.2.4
+910 silly currentTree +-- assert-plus@1.0.0
+910 silly currentTree +-- async-limiter@1.0.0
+910 silly currentTree +-- asynckit@0.4.0
+910 silly currentTree +-- aws-sign2@0.7.0
+910 silly currentTree +-- aws4@1.8.0
+910 silly currentTree +-- balanced-match@1.0.0
+910 silly currentTree +-- base64-js@1.3.0
+910 silly currentTree +-- bcrypt-pbkdf@1.0.2
+910 silly currentTree +-- bl@1.2.2
+910 silly currentTree +-- block-stream@0.0.9
+910 silly currentTree +-- bluebird@3.5.2
+910 silly currentTree +-- bn.js@4.11.8
+910 silly currentTree +-- body-parser@1.18.3
+910 silly currentTree | `-- debug@2.6.9
+910 silly currentTree +-- brace-expansion@1.1.11
+910 silly currentTree +-- brorand@1.1.0
+910 silly currentTree +-- browser-stdout@1.3.1
+910 silly currentTree +-- browserify-aes@1.2.0
+910 silly currentTree +-- browserify-cipher@1.0.1
+910 silly currentTree +-- browserify-des@1.0.2
+910 silly currentTree +-- browserify-rsa@4.0.1
+910 silly currentTree +-- browserify-sha3@0.0.1
+910 silly currentTree +-- browserify-sign@4.0.4
+910 silly currentTree +-- buffer-alloc-unsafe@1.1.0
+910 silly currentTree +-- buffer-alloc@1.2.0
+910 silly currentTree +-- buffer-crc32@0.2.13
+910 silly currentTree +-- buffer-fill@1.0.0
+910 silly currentTree +-- buffer-from@1.1.1
+910 silly currentTree +-- buffer-to-arraybuffer@0.0.5
+910 silly currentTree +-- buffer-xor@1.0.3
+910 silly currentTree +-- buffer@5.2.1
+910 silly currentTree +-- builtin-modules@1.1.1
+910 silly currentTree +-- bytes@3.0.0
+910 silly currentTree +-- camelcase@3.0.0
+910 silly currentTree +-- caseless@0.12.0
+910 silly currentTree +-- cipher-base@1.0.4
+910 silly currentTree +-- cliui@3.2.0
+910 silly currentTree +-- co@4.6.0
+910 silly currentTree +-- code-point-at@1.1.0
+910 silly currentTree +-- combined-stream@1.0.7
+910 silly currentTree +-- commander@2.15.1
+910 silly currentTree +-- concat-map@0.0.1
+910 silly currentTree +-- content-disposition@0.5.2
+910 silly currentTree +-- content-type@1.0.4
+910 silly currentTree +-- cookie-signature@1.0.6
+910 silly currentTree +-- cookie@0.3.1
+910 silly currentTree +-- cookiejar@2.1.2
+910 silly currentTree +-- core-util-is@1.0.2
+910 silly currentTree +-- cors@2.8.4
+910 silly currentTree +-- create-ecdh@4.0.3
+910 silly currentTree +-- create-hash@1.2.0
+910 silly currentTree +-- create-hmac@1.1.7
+910 silly currentTree +-- crypto-browserify@3.12.0
+910 silly currentTree +-- dashdash@1.14.1
+910 silly currentTree +-- debug@3.1.0
+910 silly currentTree +-- decamelize@1.2.0
+910 silly currentTree +-- decode-uri-component@0.2.0
+910 silly currentTree +-- decompress-response@3.3.0
+910 silly currentTree +-- decompress-tar@4.1.1
+910 silly currentTree +-- decompress-tarbz2@4.1.1
+910 silly currentTree | `-- file-type@6.2.0
+910 silly currentTree +-- decompress-targz@4.1.1
+910 silly currentTree +-- decompress-unzip@4.0.1
+910 silly currentTree | +-- file-type@3.9.0
+910 silly currentTree | `-- get-stream@2.3.1
+910 silly currentTree +-- decompress@4.2.0
+910 silly currentTree +-- delayed-stream@1.0.0
+910 silly currentTree +-- depd@1.1.2
+910 silly currentTree +-- des.js@1.0.0
+910 silly currentTree +-- destroy@1.0.4
+910 silly currentTree +-- diff@3.5.0
+910 silly currentTree +-- diffie-hellman@5.0.3
+910 silly currentTree +-- dom-walk@0.1.1
+910 silly currentTree +-- duplexer3@0.1.4
+910 silly currentTree +-- ecc-jsbn@0.1.2
+910 silly currentTree +-- ee-first@1.1.1
+910 silly currentTree +-- elliptic@6.4.1
+910 silly currentTree +-- encodeurl@1.0.2
+910 silly currentTree +-- end-of-stream@1.4.1
+910 silly currentTree +-- error-ex@1.3.2
+910 silly currentTree +-- escape-html@1.0.3
+910 silly currentTree +-- escape-string-regexp@1.0.5
+910 silly currentTree +-- etag@1.8.1
+910 silly currentTree +-- eth-lib@0.1.27
+910 silly currentTree +-- ethjs-unit@0.1.6
+910 silly currentTree | `-- bn.js@4.11.6
+910 silly currentTree +-- eventemitter3@1.1.1
+910 silly currentTree +-- evp_bytestokey@1.0.3
+910 silly currentTree +-- express@4.16.3
+910 silly currentTree | +-- body-parser@1.18.2
+910 silly currentTree | +-- debug@2.6.9
+910 silly currentTree | +-- iconv-lite@0.4.19
+910 silly currentTree | +-- qs@6.5.1
+910 silly currentTree | +-- raw-body@2.3.2
+910 silly currentTree | | +-- depd@1.1.1
+910 silly currentTree | | +-- http-errors@1.6.2
+910 silly currentTree | | `-- setprototypeof@1.0.3
+910 silly currentTree | +-- safe-buffer@5.1.1
+910 silly currentTree | `-- statuses@1.4.0
+910 silly currentTree +-- extend@3.0.2
+910 silly currentTree +-- extsprintf@1.3.0
+910 silly currentTree +-- fast-deep-equal@1.1.0
+910 silly currentTree +-- fast-json-stable-stringify@2.0.0
+910 silly currentTree +-- fd-slicer@1.1.0
+910 silly currentTree +-- file-type@5.2.0
+910 silly currentTree +-- finalhandler@1.1.1
+910 silly currentTree | +-- debug@2.6.9
+910 silly currentTree | `-- statuses@1.4.0
+910 silly currentTree +-- find-up@1.1.2
+910 silly currentTree +-- for-each@0.3.3
+910 silly currentTree +-- forever-agent@0.6.1
+910 silly currentTree +-- form-data@2.3.2
+910 silly currentTree | `-- combined-stream@1.0.6
+910 silly currentTree +-- forwarded@0.1.2
+910 silly currentTree +-- fresh@0.5.2
+910 silly currentTree +-- fs-constants@1.0.0
+910 silly currentTree +-- fs-extra@0.30.0
+910 silly currentTree +-- fs-promise@2.0.3
+910 silly currentTree | `-- fs-extra@2.1.2
+910 silly currentTree +-- fs.realpath@1.0.0
+910 silly currentTree +-- fstream@1.0.11
+910 silly currentTree +-- ganache-cli@6.1.8
+910 silly currentTree +-- get-caller-file@1.0.3
+910 silly currentTree +-- get-stream@3.0.0
+910 silly currentTree +-- getpass@0.1.7
+910 silly currentTree +-- glob@7.1.3
+910 silly currentTree +-- global@4.3.2
+910 silly currentTree +-- got@7.1.0
+910 silly currentTree +-- graceful-fs@4.1.11
+910 silly currentTree +-- graceful-readlink@1.0.1
+910 silly currentTree +-- growl@1.10.5
+910 silly currentTree +-- har-schema@2.0.0
+910 silly currentTree +-- har-validator@5.1.0
+910 silly currentTree +-- has-flag@3.0.0
+910 silly currentTree +-- has-symbol-support-x@1.4.2
+910 silly currentTree +-- has-to-string-tag-x@1.4.1
+910 silly currentTree +-- hash-base@3.0.4
+910 silly currentTree +-- hash.js@1.1.5
+910 silly currentTree +-- he@1.1.1
+910 silly currentTree +-- hmac-drbg@1.0.1
+910 silly currentTree +-- hosted-git-info@2.7.1
+910 silly currentTree +-- http-errors@1.6.3
+910 silly currentTree +-- http-https@1.0.0
+910 silly currentTree +-- http-signature@1.2.0
+910 silly currentTree +-- iconv-lite@0.4.23
+910 silly currentTree +-- ieee754@1.1.12
+910 silly currentTree +-- inflight@1.0.6
+910 silly currentTree +-- inherits@2.0.3
+910 silly currentTree +-- invert-kv@1.0.0
+910 silly currentTree +-- ipaddr.js@1.8.0
+910 silly currentTree +-- is-arrayish@0.2.1
+910 silly currentTree +-- is-builtin-module@1.0.0
+910 silly currentTree +-- is-callable@1.1.4
+910 silly currentTree +-- is-fullwidth-code-point@1.0.0
+910 silly currentTree +-- is-function@1.0.1
+910 silly currentTree +-- is-hex-prefixed@1.0.0
+910 silly currentTree +-- is-natural-number@4.0.1
+910 silly currentTree +-- is-object@1.0.1
+910 silly currentTree +-- is-plain-obj@1.1.0
+910 silly currentTree +-- is-retry-allowed@1.1.0
+910 silly currentTree +-- is-stream@1.1.0
+910 silly currentTree +-- is-typedarray@1.0.0
+910 silly currentTree +-- is-utf8@0.2.1
+910 silly currentTree +-- isarray@1.0.0
+910 silly currentTree +-- isstream@0.1.2
+910 silly currentTree +-- isurl@1.0.0
+910 silly currentTree +-- js-sha3@0.3.1
+910 silly currentTree +-- jsbn@0.1.1
+910 silly currentTree +-- json-schema-traverse@0.3.1
+910 silly currentTree +-- json-schema@0.2.3
+910 silly currentTree +-- json-stringify-safe@5.0.1
+910 silly currentTree +-- jsonfile@2.4.0
+910 silly currentTree +-- jsprim@1.4.1
+910 silly currentTree +-- keccakjs@0.2.1
+910 silly currentTree +-- klaw@1.3.1
+910 silly currentTree +-- lcid@1.0.0
+910 silly currentTree +-- load-json-file@1.1.0
+910 silly currentTree +-- lodash.assign@4.2.0
+910 silly currentTree +-- lowercase-keys@1.0.1
+910 silly currentTree +-- make-dir@1.3.0
+910 silly currentTree | `-- pify@3.0.0
+910 silly currentTree +-- md5.js@1.3.4
+910 silly currentTree +-- media-typer@0.3.0
+910 silly currentTree +-- memorystream@0.3.1
+910 silly currentTree +-- merge-descriptors@1.0.1
+910 silly currentTree +-- methods@1.1.2
+910 silly currentTree +-- miller-rabin@4.0.1
+910 silly currentTree +-- mime-db@1.36.0
+910 silly currentTree +-- mime-types@2.1.20
+910 silly currentTree +-- mime@1.4.1
+910 silly currentTree +-- mimic-response@1.0.1
+910 silly currentTree +-- min-document@2.19.0
+910 silly currentTree +-- minimalistic-assert@1.0.1
+910 silly currentTree +-- minimalistic-crypto-utils@1.0.1
+910 silly currentTree +-- minimatch@3.0.4
+910 silly currentTree +-- minimist@0.0.8
+910 silly currentTree +-- mkdirp-promise@5.0.1
+910 silly currentTree +-- mkdirp@0.5.1
+910 silly currentTree +-- mocha@5.2.0
+910 silly currentTree | `-- glob@7.1.2
+910 silly currentTree +-- mock-fs@4.7.0
+910 silly currentTree +-- mout@0.11.1
+910 silly currentTree +-- ms@2.0.0
+910 silly currentTree +-- mz@2.7.0
+910 silly currentTree +-- nan@2.10.0
+910 silly currentTree +-- nano-json-stream-parser@0.1.2
+910 silly currentTree +-- negotiator@0.6.1
+910 silly currentTree +-- normalize-package-data@2.4.0
+910 silly currentTree +-- number-is-nan@1.0.1
+910 silly currentTree +-- number-to-bn@1.7.0
+910 silly currentTree | `-- bn.js@4.11.6
+910 silly currentTree +-- oauth-sign@0.9.0
+910 silly currentTree +-- object-assign@4.1.1
+910 silly currentTree +-- oboe@2.1.3
+910 silly currentTree +-- on-finished@2.3.0
+910 silly currentTree +-- once@1.4.0
+910 silly currentTree +-- os-locale@1.4.0
+910 silly currentTree +-- p-cancelable@0.3.0
+910 silly currentTree +-- p-finally@1.0.0
+910 silly currentTree +-- p-timeout@1.2.1
+910 silly currentTree +-- parse-asn1@5.1.1
+910 silly currentTree +-- parse-headers@2.0.1
+910 silly currentTree +-- parse-json@2.2.0
+910 silly currentTree +-- parseurl@1.3.2
+910 silly currentTree +-- path-exists@2.1.0
+910 silly currentTree +-- path-is-absolute@1.0.1
+910 silly currentTree +-- path-to-regexp@0.1.7
+910 silly currentTree +-- path-type@1.1.0
+910 silly currentTree +-- pbkdf2@3.0.17
+910 silly currentTree +-- pend@1.2.0
+910 silly currentTree +-- performance-now@2.1.0
+910 silly currentTree +-- pify@2.3.0
+910 silly currentTree +-- pinkie-promise@2.0.1
+910 silly currentTree +-- pinkie@2.0.4
+910 silly currentTree +-- prepend-http@1.0.4
+910 silly currentTree +-- process-nextick-args@2.0.0
+910 silly currentTree +-- process@0.5.2
+910 silly currentTree +-- proxy-addr@2.0.4
+910 silly currentTree +-- psl@1.1.29
+910 silly currentTree +-- public-encrypt@4.0.2
+910 silly currentTree +-- punycode@1.4.1
+910 silly currentTree +-- qs@6.5.2
+910 silly currentTree +-- query-string@5.1.1
+910 silly currentTree +-- randombytes@2.0.6
+910 silly currentTree +-- randomfill@1.0.4
+910 silly currentTree +-- randomhex@0.1.5
+910 silly currentTree +-- range-parser@1.2.0
+910 silly currentTree +-- raw-body@2.3.3
+910 silly currentTree +-- read-pkg-up@1.0.1
+910 silly currentTree +-- read-pkg@1.1.0
+910 silly currentTree +-- readable-stream@2.3.6
+910 silly currentTree +-- request@2.88.0
+910 silly currentTree +-- require-directory@2.1.1
+910 silly currentTree +-- require-from-string@1.2.1
+910 silly currentTree +-- require-main-filename@1.0.1
+910 silly currentTree +-- rimraf@2.6.2
+910 silly currentTree +-- ripemd160@2.0.2
+910 silly currentTree +-- safe-buffer@5.1.2
+910 silly currentTree +-- safer-buffer@2.1.2
+910 silly currentTree +-- scryptsy@1.2.1
+910 silly currentTree +-- seek-bzip@1.0.5
+910 silly currentTree | `-- commander@2.8.1
+910 silly currentTree +-- semver@5.5.1
+910 silly currentTree +-- send@0.16.2
+910 silly currentTree | +-- debug@2.6.9
+910 silly currentTree | `-- statuses@1.4.0
+910 silly currentTree +-- serve-static@1.13.2
+910 silly currentTree +-- servify@0.1.12
+910 silly currentTree +-- set-blocking@2.0.0
+910 silly currentTree +-- setimmediate@1.0.5
+910 silly currentTree +-- setprototypeof@1.1.0
+910 silly currentTree +-- sha.js@2.4.11
+910 silly currentTree +-- sha3@1.2.2
+910 silly currentTree +-- simple-concat@1.0.0
+910 silly currentTree +-- simple-get@2.8.1
+910 silly currentTree +-- solc@0.4.25
+910 silly currentTree +-- source-map-support@0.5.9
+910 silly currentTree +-- source-map@0.6.1
+910 silly currentTree +-- spdx-correct@3.0.0
+910 silly currentTree +-- spdx-exceptions@2.1.0
+910 silly currentTree +-- spdx-expression-parse@3.0.0
+910 silly currentTree +-- spdx-license-ids@3.0.1
+910 silly currentTree +-- sshpk@1.14.2
+910 silly currentTree +-- statuses@1.5.0
+910 silly currentTree +-- strict-uri-encode@1.1.0
+910 silly currentTree +-- string_decoder@1.1.1
+910 silly currentTree +-- string-width@1.0.2
+910 silly currentTree +-- strip-ansi@3.0.1
+910 silly currentTree +-- strip-bom@2.0.0
+910 silly currentTree +-- strip-dirs@2.1.0
+910 silly currentTree +-- strip-hex-prefix@1.0.0
+910 silly currentTree +-- supports-color@5.4.0
+910 silly currentTree +-- swarm-js@0.1.37
+910 silly currentTree | `-- fs-extra@2.1.2
+910 silly currentTree +-- tar-stream@1.6.2
+910 silly currentTree +-- tar.gz@1.0.7
+910 silly currentTree | `-- bluebird@2.11.0
+910 silly currentTree +-- tar@2.2.1
+910 silly currentTree +-- thenify-all@1.6.0
+910 silly currentTree +-- thenify@3.3.0
+910 silly currentTree +-- through@2.3.8
+910 silly currentTree +-- timed-out@4.0.1
+910 silly currentTree +-- to-buffer@1.1.1
+910 silly currentTree +-- tough-cookie@2.4.3
+910 silly currentTree +-- trim@0.0.1
+910 silly currentTree +-- tunnel-agent@0.6.0
+910 silly currentTree +-- tweetnacl@0.14.5
+910 silly currentTree +-- type-is@1.6.16
+910 silly currentTree +-- typedarray-to-buffer@3.1.5
+910 silly currentTree +-- ultron@1.1.1
+910 silly currentTree +-- unbzip2-stream@1.3.0
+910 silly currentTree | +-- base64-js@0.0.8
+910 silly currentTree | `-- buffer@3.6.0
+910 silly currentTree +-- underscore@1.8.3
+910 silly currentTree +-- unpipe@1.0.0
+910 silly currentTree +-- url-parse-lax@1.0.0
+910 silly currentTree +-- url-set-query@1.0.0
+910 silly currentTree +-- url-to-options@1.0.1
+910 silly currentTree +-- utf8@2.1.1
+910 silly currentTree +-- util-deprecate@1.0.2
+910 silly currentTree +-- utils-merge@1.0.1
+910 silly currentTree +-- uuid@3.3.2
+910 silly currentTree +-- validate-npm-package-license@3.0.4
+910 silly currentTree +-- vary@1.1.2
+910 silly currentTree +-- verror@1.10.0
+910 silly currentTree +-- web3-bzz@1.0.0-beta.35
+910 silly currentTree +-- web3-core-helpers@1.0.0-beta.35
+910 silly currentTree +-- web3-core-method@1.0.0-beta.35
+910 silly currentTree +-- web3-core-promievent@1.0.0-beta.35
+910 silly currentTree +-- web3-core-requestmanager@1.0.0-beta.35
+910 silly currentTree +-- web3-core-subscriptions@1.0.0-beta.35
+910 silly currentTree +-- web3-core@1.0.0-beta.35
+910 silly currentTree +-- web3-eth-abi@1.0.0-beta.35
+910 silly currentTree | `-- bn.js@4.11.6
+910 silly currentTree +-- web3-eth-contract@1.0.0-beta.35
+910 silly currentTree +-- web3-eth-iban@1.0.0-beta.35
+910 silly currentTree | `-- bn.js@4.11.6
+910 silly currentTree +-- web3-eth-personal@1.0.0-beta.35
+910 silly currentTree +-- web3-net@1.0.0-beta.35
+910 silly currentTree +-- web3-providers-http@1.0.0-beta.35
+910 silly currentTree +-- web3-providers-ipc@1.0.0-beta.35
+910 silly currentTree +-- web3-providers-ws@1.0.0-beta.35
+910 silly currentTree +-- web3-shh@1.0.0-beta.35
+910 silly currentTree +-- web3-utils@1.0.0-beta.35
+910 silly currentTree | `-- bn.js@4.11.6
+910 silly currentTree +-- websocket@1.0.26
+910 silly currentTree | `-- debug@2.6.9
+910 silly currentTree +-- which-module@1.0.0
+910 silly currentTree +-- window-size@0.2.0
+910 silly currentTree +-- wrap-ansi@2.1.0
+910 silly currentTree +-- wrappy@1.0.2
+910 silly currentTree +-- ws@3.3.3
+910 silly currentTree +-- xhr-request-promise@0.1.2
+910 silly currentTree +-- xhr-request@1.1.0
+910 silly currentTree +-- xhr@2.5.0
+910 silly currentTree +-- xhr2-cookies@1.1.0
+910 silly currentTree +-- xtend@4.0.1
+910 silly currentTree +-- y18n@3.2.1
+910 silly currentTree +-- yaeti@0.0.6
+910 silly currentTree +-- yargs-parser@2.4.1
+910 silly currentTree +-- yargs@4.8.1
+910 silly currentTree `-- yauzl@2.10.0
+911 silly idealTree inbox@1.0.0
+911 silly idealTree +-- accepts@1.3.5
+911 silly idealTree +-- ajv@5.5.2
+911 silly idealTree +-- ansi-regex@2.1.1
+911 silly idealTree +-- any-promise@1.3.0
+911 silly idealTree +-- array-flatten@1.1.1
+911 silly idealTree +-- asn1.js@4.10.1
+911 silly idealTree +-- asn1@0.2.4
+911 silly idealTree +-- assert-plus@1.0.0
+911 silly idealTree +-- async-limiter@1.0.0
+911 silly idealTree +-- asynckit@0.4.0
+911 silly idealTree +-- aws-sign2@0.7.0
+911 silly idealTree +-- aws4@1.8.0
+911 silly idealTree +-- balanced-match@1.0.0
+911 silly idealTree +-- base64-js@1.3.0
+911 silly idealTree +-- bcrypt-pbkdf@1.0.2
+911 silly idealTree +-- bl@1.2.2
+911 silly idealTree +-- block-stream@0.0.9
+911 silly idealTree +-- bluebird@3.5.2
+911 silly idealTree +-- bn.js@4.11.8
+911 silly idealTree +-- body-parser@1.18.3
+911 silly idealTree | `-- debug@2.6.9
+911 silly idealTree +-- brace-expansion@1.1.11
+911 silly idealTree +-- brorand@1.1.0
+911 silly idealTree +-- browser-stdout@1.3.1
+911 silly idealTree +-- browserify-aes@1.2.0
+911 silly idealTree +-- browserify-cipher@1.0.1
+911 silly idealTree +-- browserify-des@1.0.2
+911 silly idealTree +-- browserify-rsa@4.0.1
+911 silly idealTree +-- browserify-sha3@0.0.1
+911 silly idealTree +-- browserify-sign@4.0.4
+911 silly idealTree +-- buffer-alloc-unsafe@1.1.0
+911 silly idealTree +-- buffer-alloc@1.2.0
+911 silly idealTree +-- buffer-crc32@0.2.13
+911 silly idealTree +-- buffer-fill@1.0.0
+911 silly idealTree +-- buffer-from@1.1.1
+911 silly idealTree +-- buffer-to-arraybuffer@0.0.5
+911 silly idealTree +-- buffer-xor@1.0.3
+911 silly idealTree +-- buffer@5.2.1
+911 silly idealTree +-- builtin-modules@1.1.1
+911 silly idealTree +-- bytes@3.0.0
+911 silly idealTree +-- camelcase@3.0.0
+911 silly idealTree +-- caseless@0.12.0
+911 silly idealTree +-- cipher-base@1.0.4
+911 silly idealTree +-- cliui@3.2.0
+911 silly idealTree +-- co@4.6.0
+911 silly idealTree +-- code-point-at@1.1.0
+911 silly idealTree +-- combined-stream@1.0.7
+911 silly idealTree +-- commander@2.15.1
+911 silly idealTree +-- concat-map@0.0.1
+911 silly idealTree +-- content-disposition@0.5.2
+911 silly idealTree +-- content-type@1.0.4
+911 silly idealTree +-- cookie-signature@1.0.6
+911 silly idealTree +-- cookie@0.3.1
+911 silly idealTree +-- cookiejar@2.1.2
+911 silly idealTree +-- core-util-is@1.0.2
+911 silly idealTree +-- cors@2.8.4
+911 silly idealTree +-- create-ecdh@4.0.3
+911 silly idealTree +-- create-hash@1.2.0
+911 silly idealTree +-- create-hmac@1.1.7
+911 silly idealTree +-- crypto-browserify@3.12.0
+911 silly idealTree +-- dashdash@1.14.1
+911 silly idealTree +-- debug@3.1.0
+911 silly idealTree +-- decamelize@1.2.0
+911 silly idealTree +-- decode-uri-component@0.2.0
+911 silly idealTree +-- decompress-response@3.3.0
+911 silly idealTree +-- decompress-tar@4.1.1
+911 silly idealTree +-- decompress-tarbz2@4.1.1
+911 silly idealTree | `-- file-type@6.2.0
+911 silly idealTree +-- decompress-targz@4.1.1
+911 silly idealTree +-- decompress-unzip@4.0.1
+911 silly idealTree | +-- file-type@3.9.0
+911 silly idealTree | `-- get-stream@2.3.1
+911 silly idealTree +-- decompress@4.2.0
+911 silly idealTree +-- delayed-stream@1.0.0
+911 silly idealTree +-- depd@1.1.2
+911 silly idealTree +-- des.js@1.0.0
+911 silly idealTree +-- destroy@1.0.4
+911 silly idealTree +-- diff@3.5.0
+911 silly idealTree +-- diffie-hellman@5.0.3
+911 silly idealTree +-- dom-walk@0.1.1
+911 silly idealTree +-- duplexer3@0.1.4
+911 silly idealTree +-- ecc-jsbn@0.1.2
+911 silly idealTree +-- ee-first@1.1.1
+911 silly idealTree +-- elliptic@6.4.1
+911 silly idealTree +-- encodeurl@1.0.2
+911 silly idealTree +-- end-of-stream@1.4.1
+911 silly idealTree +-- error-ex@1.3.2
+911 silly idealTree +-- escape-html@1.0.3
+911 silly idealTree +-- escape-string-regexp@1.0.5
+911 silly idealTree +-- etag@1.8.1
+911 silly idealTree +-- eth-lib@0.1.27
+911 silly idealTree +-- ethjs-unit@0.1.6
+911 silly idealTree | `-- bn.js@4.11.6
+911 silly idealTree +-- eventemitter3@1.1.1
+911 silly idealTree +-- evp_bytestokey@1.0.3
+911 silly idealTree +-- express@4.16.3
+911 silly idealTree | +-- body-parser@1.18.2
+911 silly idealTree | +-- debug@2.6.9
+911 silly idealTree | +-- iconv-lite@0.4.19
+911 silly idealTree | +-- qs@6.5.1
+911 silly idealTree | +-- raw-body@2.3.2
+911 silly idealTree | | +-- depd@1.1.1
+911 silly idealTree | | +-- http-errors@1.6.2
+911 silly idealTree | | `-- setprototypeof@1.0.3
+911 silly idealTree | +-- safe-buffer@5.1.1
+911 silly idealTree | `-- statuses@1.4.0
+911 silly idealTree +-- extend@3.0.2
+911 silly idealTree +-- extsprintf@1.3.0
+911 silly idealTree +-- fast-deep-equal@1.1.0
+911 silly idealTree +-- fast-json-stable-stringify@2.0.0
+911 silly idealTree +-- fd-slicer@1.1.0
+911 silly idealTree +-- file-type@5.2.0
+911 silly idealTree +-- finalhandler@1.1.1
+911 silly idealTree | +-- debug@2.6.9
+911 silly idealTree | `-- statuses@1.4.0
+911 silly idealTree +-- find-up@1.1.2
+911 silly idealTree +-- for-each@0.3.3
+911 silly idealTree +-- forever-agent@0.6.1
+911 silly idealTree +-- form-data@2.3.2
+911 silly idealTree | `-- combined-stream@1.0.6
+911 silly idealTree +-- forwarded@0.1.2
+911 silly idealTree +-- fresh@0.5.2
+911 silly idealTree +-- fs-constants@1.0.0
+911 silly idealTree +-- fs-extra@0.30.0
+911 silly idealTree +-- fs-promise@2.0.3
+911 silly idealTree | `-- fs-extra@2.1.2
+911 silly idealTree +-- fs.realpath@1.0.0
+911 silly idealTree +-- fstream@1.0.11
+911 silly idealTree +-- ganache-cli@6.1.8
+911 silly idealTree +-- get-caller-file@1.0.3
+911 silly idealTree +-- get-stream@3.0.0
+911 silly idealTree +-- getpass@0.1.7
+911 silly idealTree +-- glob@7.1.3
+911 silly idealTree +-- global@4.3.2
+911 silly idealTree +-- got@7.1.0
+911 silly idealTree +-- graceful-fs@4.1.11
+911 silly idealTree +-- graceful-readlink@1.0.1
+911 silly idealTree +-- growl@1.10.5
+911 silly idealTree +-- har-schema@2.0.0
+911 silly idealTree +-- har-validator@5.1.0
+911 silly idealTree +-- has-flag@3.0.0
+911 silly idealTree +-- has-symbol-support-x@1.4.2
+911 silly idealTree +-- has-to-string-tag-x@1.4.1
+911 silly idealTree +-- hash-base@3.0.4
+911 silly idealTree +-- hash.js@1.1.5
+911 silly idealTree +-- he@1.1.1
+911 silly idealTree +-- hmac-drbg@1.0.1
+911 silly idealTree +-- hosted-git-info@2.7.1
+911 silly idealTree +-- http-errors@1.6.3
+911 silly idealTree +-- http-https@1.0.0
+911 silly idealTree +-- http-signature@1.2.0
+911 silly idealTree +-- iconv-lite@0.4.23
+911 silly idealTree +-- ieee754@1.1.12
+911 silly idealTree +-- inflight@1.0.6
+911 silly idealTree +-- inherits@2.0.3
+911 silly idealTree +-- invert-kv@1.0.0
+911 silly idealTree +-- ipaddr.js@1.8.0
+911 silly idealTree +-- is-arrayish@0.2.1
+911 silly idealTree +-- is-builtin-module@1.0.0
+911 silly idealTree +-- is-callable@1.1.4
+911 silly idealTree +-- is-fullwidth-code-point@1.0.0
+911 silly idealTree +-- is-function@1.0.1
+911 silly idealTree +-- is-hex-prefixed@1.0.0
+911 silly idealTree +-- is-natural-number@4.0.1
+911 silly idealTree +-- is-object@1.0.1
+911 silly idealTree +-- is-plain-obj@1.1.0
+911 silly idealTree +-- is-retry-allowed@1.1.0
+911 silly idealTree +-- is-stream@1.1.0
+911 silly idealTree +-- is-typedarray@1.0.0
+911 silly idealTree +-- is-utf8@0.2.1
+911 silly idealTree +-- isarray@1.0.0
+911 silly idealTree +-- isstream@0.1.2
+911 silly idealTree +-- isurl@1.0.0
+911 silly idealTree +-- js-sha3@0.3.1
+911 silly idealTree +-- jsbn@0.1.1
+911 silly idealTree +-- json-schema-traverse@0.3.1
+911 silly idealTree +-- json-schema@0.2.3
+911 silly idealTree +-- json-stringify-safe@5.0.1
+911 silly idealTree +-- jsonfile@2.4.0
+911 silly idealTree +-- jsprim@1.4.1
+911 silly idealTree +-- keccakjs@0.2.1
+911 silly idealTree +-- klaw@1.3.1
+911 silly idealTree +-- lcid@1.0.0
+911 silly idealTree +-- load-json-file@1.1.0
+911 silly idealTree +-- lodash.assign@4.2.0
+911 silly idealTree +-- lowercase-keys@1.0.1
+911 silly idealTree +-- make-dir@1.3.0
+911 silly idealTree | `-- pify@3.0.0
+911 silly idealTree +-- md5.js@1.3.4
+911 silly idealTree +-- media-typer@0.3.0
+911 silly idealTree +-- memorystream@0.3.1
+911 silly idealTree +-- merge-descriptors@1.0.1
+911 silly idealTree +-- methods@1.1.2
+911 silly idealTree +-- miller-rabin@4.0.1
+911 silly idealTree +-- mime-db@1.36.0
+911 silly idealTree +-- mime-types@2.1.20
+911 silly idealTree +-- mime@1.4.1
+911 silly idealTree +-- mimic-response@1.0.1
+911 silly idealTree +-- min-document@2.19.0
+911 silly idealTree +-- minimalistic-assert@1.0.1
+911 silly idealTree +-- minimalistic-crypto-utils@1.0.1
+911 silly idealTree +-- minimatch@3.0.4
+911 silly idealTree +-- minimist@0.0.8
+911 silly idealTree +-- mkdirp-promise@5.0.1
+911 silly idealTree +-- mkdirp@0.5.1
+911 silly idealTree +-- mocha@5.2.0
+911 silly idealTree | `-- glob@7.1.2
+911 silly idealTree +-- mock-fs@4.7.0
+911 silly idealTree +-- mout@0.11.1
+911 silly idealTree +-- ms@2.0.0
+911 silly idealTree +-- mz@2.7.0
+911 silly idealTree +-- nan@2.10.0
+911 silly idealTree +-- nano-json-stream-parser@0.1.2
+911 silly idealTree +-- negotiator@0.6.1
+911 silly idealTree +-- normalize-package-data@2.4.0
+911 silly idealTree +-- number-is-nan@1.0.1
+911 silly idealTree +-- number-to-bn@1.7.0
+911 silly idealTree | `-- bn.js@4.11.6
+911 silly idealTree +-- oauth-sign@0.9.0
+911 silly idealTree +-- object-assign@4.1.1
+911 silly idealTree +-- oboe@2.1.3
+911 silly idealTree +-- on-finished@2.3.0
+911 silly idealTree +-- once@1.4.0
+911 silly idealTree +-- os-locale@1.4.0
+911 silly idealTree +-- p-cancelable@0.3.0
+911 silly idealTree +-- p-finally@1.0.0
+911 silly idealTree +-- p-timeout@1.2.1
+911 silly idealTree +-- parse-asn1@5.1.1
+911 silly idealTree +-- parse-headers@2.0.1
+911 silly idealTree +-- parse-json@2.2.0
+911 silly idealTree +-- parseurl@1.3.2
+911 silly idealTree +-- path-exists@2.1.0
+911 silly idealTree +-- path-is-absolute@1.0.1
+911 silly idealTree +-- path-to-regexp@0.1.7
+911 silly idealTree +-- path-type@1.1.0
+911 silly idealTree +-- pbkdf2@3.0.17
+911 silly idealTree +-- pend@1.2.0
+911 silly idealTree +-- performance-now@2.1.0
+911 silly idealTree +-- pify@2.3.0
+911 silly idealTree +-- pinkie-promise@2.0.1
+911 silly idealTree +-- pinkie@2.0.4
+911 silly idealTree +-- prepend-http@1.0.4
+911 silly idealTree +-- process-nextick-args@2.0.0
+911 silly idealTree +-- process@0.5.2
+911 silly idealTree +-- proxy-addr@2.0.4
+911 silly idealTree +-- psl@1.1.29
+911 silly idealTree +-- public-encrypt@4.0.2
+911 silly idealTree +-- punycode@1.4.1
+911 silly idealTree +-- qs@6.5.2
+911 silly idealTree +-- query-string@5.1.1
+911 silly idealTree +-- randombytes@2.0.6
+911 silly idealTree +-- randomfill@1.0.4
+911 silly idealTree +-- randomhex@0.1.5
+911 silly idealTree +-- range-parser@1.2.0
+911 silly idealTree +-- raw-body@2.3.3
+911 silly idealTree +-- read-pkg-up@1.0.1
+911 silly idealTree +-- read-pkg@1.1.0
+911 silly idealTree +-- readable-stream@2.3.6
+911 silly idealTree +-- request@2.88.0
+911 silly idealTree +-- require-directory@2.1.1
+911 silly idealTree +-- require-from-string@1.2.1
+911 silly idealTree +-- require-main-filename@1.0.1
+911 silly idealTree +-- rimraf@2.6.2
+911 silly idealTree +-- ripemd160@2.0.2
+911 silly idealTree +-- safe-buffer@5.1.2
+911 silly idealTree +-- safer-buffer@2.1.2
+911 silly idealTree +-- scrypt.js@0.2.0
+911 silly idealTree +-- scrypt@6.0.3
+911 silly idealTree +-- scryptsy@1.2.1
+911 silly idealTree +-- seek-bzip@1.0.5
+911 silly idealTree | `-- commander@2.8.1
+911 silly idealTree +-- semver@5.5.1
+911 silly idealTree +-- send@0.16.2
+911 silly idealTree | +-- debug@2.6.9
+911 silly idealTree | `-- statuses@1.4.0
+911 silly idealTree +-- serve-static@1.13.2
+911 silly idealTree +-- servify@0.1.12
+911 silly idealTree +-- set-blocking@2.0.0
+911 silly idealTree +-- setimmediate@1.0.5
+911 silly idealTree +-- setprototypeof@1.1.0
+911 silly idealTree +-- sha.js@2.4.11
+911 silly idealTree +-- sha3@1.2.2
+911 silly idealTree +-- simple-concat@1.0.0
+911 silly idealTree +-- simple-get@2.8.1
+911 silly idealTree +-- solc@0.4.25
+911 silly idealTree +-- source-map-support@0.5.9
+911 silly idealTree +-- source-map@0.6.1
+911 silly idealTree +-- spdx-correct@3.0.0
+911 silly idealTree +-- spdx-exceptions@2.1.0
+911 silly idealTree +-- spdx-expression-parse@3.0.0
+911 silly idealTree +-- spdx-license-ids@3.0.1
+911 silly idealTree +-- sshpk@1.14.2
+911 silly idealTree +-- statuses@1.5.0
+911 silly idealTree +-- strict-uri-encode@1.1.0
+911 silly idealTree +-- string_decoder@1.1.1
+911 silly idealTree +-- string-width@1.0.2
+911 silly idealTree +-- strip-ansi@3.0.1
+911 silly idealTree +-- strip-bom@2.0.0
+911 silly idealTree +-- strip-dirs@2.1.0
+911 silly idealTree +-- strip-hex-prefix@1.0.0
+911 silly idealTree +-- supports-color@5.4.0
+911 silly idealTree +-- swarm-js@0.1.37
+911 silly idealTree | `-- fs-extra@2.1.2
+911 silly idealTree +-- tar-stream@1.6.2
+911 silly idealTree +-- tar.gz@1.0.7
+911 silly idealTree | `-- bluebird@2.11.0
+911 silly idealTree +-- tar@2.2.1
+911 silly idealTree +-- thenify-all@1.6.0
+911 silly idealTree +-- thenify@3.3.0
+911 silly idealTree +-- through@2.3.8
+911 silly idealTree +-- timed-out@4.0.1
+911 silly idealTree +-- to-buffer@1.1.1
+911 silly idealTree +-- tough-cookie@2.4.3
+911 silly idealTree +-- trim@0.0.1
+911 silly idealTree +-- tunnel-agent@0.6.0
+911 silly idealTree +-- tweetnacl@0.14.5
+911 silly idealTree +-- type-is@1.6.16
+911 silly idealTree +-- typedarray-to-buffer@3.1.5
+911 silly idealTree +-- ultron@1.1.1
+911 silly idealTree +-- unbzip2-stream@1.3.0
+911 silly idealTree | +-- base64-js@0.0.8
+911 silly idealTree | `-- buffer@3.6.0
+911 silly idealTree +-- underscore@1.8.3
+911 silly idealTree +-- unpipe@1.0.0
+911 silly idealTree +-- url-parse-lax@1.0.0
+911 silly idealTree +-- url-set-query@1.0.0
+911 silly idealTree +-- url-to-options@1.0.1
+911 silly idealTree +-- utf8@2.1.1
+911 silly idealTree +-- util-deprecate@1.0.2
+911 silly idealTree +-- utils-merge@1.0.1
+911 silly idealTree +-- uuid@3.3.2
+911 silly idealTree +-- validate-npm-package-license@3.0.4
+911 silly idealTree +-- vary@1.1.2
+911 silly idealTree +-- verror@1.10.0
+911 silly idealTree +-- web3-bzz@1.0.0-beta.35
+911 silly idealTree +-- web3-core-helpers@1.0.0-beta.35
+911 silly idealTree +-- web3-core-method@1.0.0-beta.35
+911 silly idealTree +-- web3-core-promievent@1.0.0-beta.35
+911 silly idealTree +-- web3-core-requestmanager@1.0.0-beta.35
+911 silly idealTree +-- web3-core-subscriptions@1.0.0-beta.35
+911 silly idealTree +-- web3-core@1.0.0-beta.35
+911 silly idealTree +-- web3-eth-abi@1.0.0-beta.35
+911 silly idealTree | `-- bn.js@4.11.6
+911 silly idealTree +-- web3-eth-accounts@1.0.0-beta.35
+911 silly idealTree | +-- eth-lib@0.2.7
+911 silly idealTree | `-- uuid@2.0.1
+911 silly idealTree +-- web3-eth-contract@1.0.0-beta.35
+911 silly idealTree +-- web3-eth-iban@1.0.0-beta.35
+911 silly idealTree | `-- bn.js@4.11.6
+911 silly idealTree +-- web3-eth-personal@1.0.0-beta.35
+911 silly idealTree +-- web3-eth@1.0.0-beta.35
+911 silly idealTree +-- web3-net@1.0.0-beta.35
+911 silly idealTree +-- web3-providers-http@1.0.0-beta.35
+911 silly idealTree +-- web3-providers-ipc@1.0.0-beta.35
+911 silly idealTree +-- web3-providers-ws@1.0.0-beta.35
+911 silly idealTree +-- web3-shh@1.0.0-beta.35
+911 silly idealTree +-- web3-utils@1.0.0-beta.35
+911 silly idealTree | `-- bn.js@4.11.6
+911 silly idealTree +-- web3@1.0.0-beta.35
+911 silly idealTree +-- websocket@1.0.26
+911 silly idealTree | `-- debug@2.6.9
+911 silly idealTree +-- which-module@1.0.0
+911 silly idealTree +-- window-size@0.2.0
+911 silly idealTree +-- wrap-ansi@2.1.0
+911 silly idealTree +-- wrappy@1.0.2
+911 silly idealTree +-- ws@3.3.3
+911 silly idealTree +-- xhr-request-promise@0.1.2
+911 silly idealTree +-- xhr-request@1.1.0
+911 silly idealTree +-- xhr@2.5.0
+911 silly idealTree +-- xhr2-cookies@1.1.0
+911 silly idealTree +-- xtend@4.0.1
+911 silly idealTree +-- y18n@3.2.1
+911 silly idealTree +-- yaeti@0.0.6
+911 silly idealTree +-- yargs-parser@2.4.1
+911 silly idealTree +-- yargs@4.8.1
+911 silly idealTree `-- yauzl@2.10.0
+912 silly install generateActionsToTake
+913 silly diffTrees action count 9
+914 silly diffTrees add scrypt@6.0.3
+915 silly diffTrees add scrypt.js@0.2.0
+916 silly diffTrees add eth-lib@0.2.7
+917 silly diffTrees add uuid@2.0.1
+918 silly diffTrees add web3-eth-accounts@1.0.0-beta.35
+919 silly diffTrees update ganache-cli@6.1.8
+920 silly diffTrees update mocha@5.2.0
+921 silly diffTrees add web3-eth@1.0.0-beta.35
+922 silly diffTrees add web3@1.0.0-beta.35
+923 silly decomposeActions action count 76
+924 silly decomposeActions fetch scrypt@6.0.3
+925 silly decomposeActions extract scrypt@6.0.3
+926 silly decomposeActions preinstall scrypt@6.0.3
+927 silly decomposeActions build scrypt@6.0.3
+928 silly decomposeActions install scrypt@6.0.3
+929 silly decomposeActions postinstall scrypt@6.0.3
+930 silly decomposeActions finalize scrypt@6.0.3
+931 silly decomposeActions refresh-package-json scrypt@6.0.3
+932 silly decomposeActions fetch scrypt.js@0.2.0
+933 silly decomposeActions extract scrypt.js@0.2.0
+934 silly decomposeActions preinstall scrypt.js@0.2.0
+935 silly decomposeActions build scrypt.js@0.2.0
+936 silly decomposeActions install scrypt.js@0.2.0
+937 silly decomposeActions postinstall scrypt.js@0.2.0
+938 silly decomposeActions finalize scrypt.js@0.2.0
+939 silly decomposeActions refresh-package-json scrypt.js@0.2.0
+940 silly decomposeActions fetch eth-lib@0.2.7
+941 silly decomposeActions extract eth-lib@0.2.7
+942 silly decomposeActions preinstall eth-lib@0.2.7
+943 silly decomposeActions build eth-lib@0.2.7
+944 silly decomposeActions install eth-lib@0.2.7
+945 silly decomposeActions postinstall eth-lib@0.2.7
+946 silly decomposeActions finalize eth-lib@0.2.7
+947 silly decomposeActions refresh-package-json eth-lib@0.2.7
+948 silly decomposeActions fetch uuid@2.0.1
+949 silly decomposeActions extract uuid@2.0.1
+950 silly decomposeActions preinstall uuid@2.0.1
+951 silly decomposeActions build uuid@2.0.1
+952 silly decomposeActions install uuid@2.0.1
+953 silly decomposeActions postinstall uuid@2.0.1
+954 silly decomposeActions finalize uuid@2.0.1
+955 silly decomposeActions refresh-package-json uuid@2.0.1
+956 silly decomposeActions fetch web3-eth-accounts@1.0.0-beta.35
+957 silly decomposeActions extract web3-eth-accounts@1.0.0-beta.35
+958 silly decomposeActions preinstall web3-eth-accounts@1.0.0-beta.35
+959 silly decomposeActions build web3-eth-accounts@1.0.0-beta.35
+960 silly decomposeActions install web3-eth-accounts@1.0.0-beta.35
+961 silly decomposeActions postinstall web3-eth-accounts@1.0.0-beta.35
+962 silly decomposeActions finalize web3-eth-accounts@1.0.0-beta.35
+963 silly decomposeActions refresh-package-json web3-eth-accounts@1.0.0-beta.35
+964 silly decomposeActions unbuild ganache-cli@6.1.8
+965 silly decomposeActions remove ganache-cli@6.1.8
+966 silly decomposeActions fetch ganache-cli@6.1.8
+967 silly decomposeActions extract ganache-cli@6.1.8
+968 silly decomposeActions preinstall ganache-cli@6.1.8
+969 silly decomposeActions build ganache-cli@6.1.8
+970 silly decomposeActions install ganache-cli@6.1.8
+971 silly decomposeActions postinstall ganache-cli@6.1.8
+972 silly decomposeActions finalize ganache-cli@6.1.8
+973 silly decomposeActions refresh-package-json ganache-cli@6.1.8
+974 silly decomposeActions unbuild mocha@5.2.0
+975 silly decomposeActions remove mocha@5.2.0
+976 silly decomposeActions fetch mocha@5.2.0
+977 silly decomposeActions extract mocha@5.2.0
+978 silly decomposeActions preinstall mocha@5.2.0
+979 silly decomposeActions build mocha@5.2.0
+980 silly decomposeActions install mocha@5.2.0
+981 silly decomposeActions postinstall mocha@5.2.0
+982 silly decomposeActions finalize mocha@5.2.0
+983 silly decomposeActions refresh-package-json mocha@5.2.0
+984 silly decomposeActions fetch web3-eth@1.0.0-beta.35
+985 silly decomposeActions extract web3-eth@1.0.0-beta.35
+986 silly decomposeActions preinstall web3-eth@1.0.0-beta.35
+987 silly decomposeActions build web3-eth@1.0.0-beta.35
+988 silly decomposeActions install web3-eth@1.0.0-beta.35
+989 silly decomposeActions postinstall web3-eth@1.0.0-beta.35
+990 silly decomposeActions finalize web3-eth@1.0.0-beta.35
+991 silly decomposeActions refresh-package-json web3-eth@1.0.0-beta.35
+992 silly decomposeActions fetch web3@1.0.0-beta.35
+993 silly decomposeActions extract web3@1.0.0-beta.35
+994 silly decomposeActions preinstall web3@1.0.0-beta.35
+995 silly decomposeActions build web3@1.0.0-beta.35
+996 silly decomposeActions install web3@1.0.0-beta.35
+997 silly decomposeActions postinstall web3@1.0.0-beta.35
+998 silly decomposeActions finalize web3@1.0.0-beta.35
+999 silly decomposeActions refresh-package-json web3@1.0.0-beta.35
+1000 silly install executeActions
+1001 silly doSerial global-install 76
+1002 verbose correctMkdir C:\Users\Gary\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+1003 verbose lock using C:\Users\Gary\AppData\Roaming\npm-cache\_locks\staging-1a39d36e5bedaa96.lock for C:\Users\Gary\project\ethereum\inbox\node_modules\.staging
+1004 silly doParallel extract 76
+1005 silly extract scrypt@6.0.3
+1006 silly pacote trying scrypt@https://registry.npmjs.org/scrypt/-/scrypt-6.0.3.tgz by hash: sha1-BOAUpWgrU/pQwtXM4WfXGcBthw0=
+1007 silly extract scrypt.js@0.2.0
+1008 silly pacote trying scrypt.js@https://registry.npmjs.org/scrypt.js/-/scrypt.js-0.2.0.tgz by hash: sha1-r40UZbcemZARC+38WTuUeeA6ito=
+1009 silly extract eth-lib@0.2.7
+1010 silly pacote trying eth-lib@https://registry.npmjs.org/eth-lib/-/eth-lib-0.2.7.tgz by hash: sha1-L5Pxex4jrsN1nNSj/iDBKGo/wco=
+1011 silly extract uuid@2.0.1
+1012 silly pacote trying uuid@https://registry.npmjs.org/uuid/-/uuid-2.0.1.tgz by hash: sha1-wqMN7bPlNdcsz4LjQ5QaULqFM6w=
+1013 silly extract web3-eth-accounts@1.0.0-beta.35
+1014 silly pacote trying web3-eth-accounts@https://registry.npmjs.org/web3-eth-accounts/-/web3-eth-accounts-1.0.0-beta.35.tgz by hash: sha512-duIgRsfht/0kAW/eQ0X9lKtVIykbETrnM2H7EnvplCzPHtQLodpib4o9JXfh9n6ZDgdDC7cuJoiVB9QJg089ew==
+1015 silly extract ganache-cli@6.1.8
+1016 silly pacote trying ganache-cli@https://registry.npmjs.org/ganache-cli/-/ganache-cli-6.1.8.tgz by hash: sha512-yXzteu4SIgUL31mnpm9j+x6dpHUw0p/nsRVkcySKq0w+1vDxH9jMErP1QhZAJuTVE6ni4nfvGSNkaQx5cD3jfg==
+1017 silly extract mocha@5.2.0
+1018 silly pacote trying mocha@https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz by hash: sha512-2IUgKDhc3J7Uug+FxMXuqIyYzH7gJjXECKe/w43IGgQHTSj3InJi+yAA7T24L9bQMRKiUEHxEX37G5JpVUGLcQ==
+1019 silly extract web3-eth@1.0.0-beta.35
+1020 silly pacote trying web3-eth@https://registry.npmjs.org/web3-eth/-/web3-eth-1.0.0-beta.35.tgz by hash: sha512-04mcb2nGPXThawuuYICPOxv0xOHofvQKsjZeIq+89nyOC8DQMGTAErDkGyMHQYtjpth5XDhic0wuEsA80AmFZA==
+1021 silly extract web3@1.0.0-beta.35
+1022 silly pacote trying web3@https://registry.npmjs.org/web3/-/web3-1.0.0-beta.35.tgz by hash: sha512-xwDmUhvTcHQvvNnOPcPZZgCxKUsI2e+GbHy7JkTK3/Rmnutazy8x7fsAXT9myw7V1qpi3GgLoZ3fkglSUbg1Mg==
+1023 silly pacote scrypt.js@https://registry.npmjs.org/scrypt.js/-/scrypt.js-0.2.0.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\scrypt.js-8931d484 by content address 618ms
+1024 silly pacote web3-eth-accounts@https://registry.npmjs.org/web3-eth-accounts/-/web3-eth-accounts-1.0.0-beta.35.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\web3-eth-accounts-db226f46 by content address 633ms
+1025 silly pacote web3@https://registry.npmjs.org/web3/-/web3-1.0.0-beta.35.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\web3-a02890e3 by content address 653ms
+1026 silly pacote web3-eth@https://registry.npmjs.org/web3-eth/-/web3-eth-1.0.0-beta.35.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\web3-eth-8aca669d by content address 654ms
+1027 silly pacote uuid@https://registry.npmjs.org/uuid/-/uuid-2.0.1.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\uuid-35a563ac by content address 892ms
+1028 silly pacote eth-lib@https://registry.npmjs.org/eth-lib/-/eth-lib-0.2.7.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\eth-lib-2d74f888 by content address 1095ms
+1029 silly pacote mocha@https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\mocha-a4229da8 by content address 1621ms
+1030 silly pacote scrypt@https://registry.npmjs.org/scrypt/-/scrypt-6.0.3.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\scrypt-2c074cac by content address 3438ms
+1031 silly pacote ganache-cli@https://registry.npmjs.org/ganache-cli/-/ganache-cli-6.1.8.tgz extracted to C:\Users\Gary\project\ethereum\inbox\node_modules\.staging\ganache-cli-07406448 by content address 8366ms
+1032 silly doReverseSerial unbuild 76
+1033 silly unbuild mocha@5.2.0
+1034 info lifecycle mocha@5.2.0~preuninstall: mocha@5.2.0
+1035 info lifecycle mocha@5.2.0~uninstall: mocha@5.2.0
+1036 verbose unbuild rmStuff mocha@5.2.0 from C:\Users\Gary\project\ethereum\inbox\node_modules
+1037 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\mocha is not inside C:\Users\Gary\AppData\Roaming\npm
+1038 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\_mocha.cmd is not inside C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1039 silly gentlyRm parent.path = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1040 silly gentlyRm parent.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha is in C:\Users\Gary\project\ethereum\inbox
+1041 silly gentlyRm target.path =  C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\_mocha.cmd
+1042 silly gentlyRm target.symlink = ..\mocha\bin\_mocha
+1043 silly gentlyRm target.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\_mocha.cmd is in C:\Users\Gary\project\ethereum\inbox
+1044 silly gentlyRm target.inParent =  { target: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha\\bin\\_mocha',
+1044 silly gentlyRm   path: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha' }
+1045 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\mocha.cmd is not inside C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1046 silly gentlyRm parent.path = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1047 silly gentlyRm parent.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha is in C:\Users\Gary\project\ethereum\inbox
+1048 silly gentlyRm target.path =  C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\mocha.cmd
+1049 silly gentlyRm target.symlink = ..\mocha\bin\mocha
+1050 silly gentlyRm target.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\mocha.cmd is in C:\Users\Gary\project\ethereum\inbox
+1051 silly gentlyRm target.inParent =  { target: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha\\bin\\mocha',
+1051 silly gentlyRm   path: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha' }
+1052 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\_mocha is not inside C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1053 silly gentlyRm parent.path = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1054 silly gentlyRm parent.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha is in C:\Users\Gary\project\ethereum\inbox
+1055 silly gentlyRm target.path =  C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\_mocha
+1056 silly gentlyRm target.symlink = ../mocha/bin/_mocha
+1057 silly gentlyRm target.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\_mocha is in C:\Users\Gary\project\ethereum\inbox
+1058 silly gentlyRm target.inParent =  { target: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha\\bin\\_mocha',
+1058 silly gentlyRm   path: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha' }
+1059 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\mocha is not inside C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1060 silly gentlyRm parent.path = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1061 silly gentlyRm parent.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\mocha is in C:\Users\Gary\project\ethereum\inbox
+1062 silly gentlyRm target.path =  C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\mocha
+1063 silly gentlyRm target.symlink = ../mocha/bin/mocha
+1064 silly gentlyRm target.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\mocha is in C:\Users\Gary\project\ethereum\inbox
+1065 silly gentlyRm target.inParent =  { target: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha\\bin\\mocha',
+1065 silly gentlyRm   path: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\mocha' }
+1066 info lifecycle mocha@5.2.0~postuninstall: mocha@5.2.0
+1067 silly unbuild ganache-cli@6.1.8
+1068 info lifecycle ganache-cli@6.1.8~preuninstall: ganache-cli@6.1.8
+1069 info lifecycle ganache-cli@6.1.8~uninstall: ganache-cli@6.1.8
+1070 verbose unbuild rmStuff ganache-cli@6.1.8 from C:\Users\Gary\project\ethereum\inbox\node_modules
+1071 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\ganache-cli.cmd is not inside C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1072 silly gentlyRm parent.path = C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1073 silly gentlyRm parent.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli is in C:\Users\Gary\project\ethereum\inbox
+1074 silly gentlyRm target.path =  C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\ganache-cli.cmd
+1075 silly gentlyRm target.symlink = ..\ganache-cli\build\cli.node.js
+1076 silly gentlyRm target.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\ganache-cli.cmd is in C:\Users\Gary\project\ethereum\inbox
+1077 silly gentlyRm target.inParent =  { target: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\ganache-cli\\build\\cli.node.js',
+1077 silly gentlyRm   path: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\ganache-cli' }
+1078 silly isEverInside C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\ganache-cli is not inside C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1079 silly gentlyRm parent.path = C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1080 silly gentlyRm parent.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli is in C:\Users\Gary\project\ethereum\inbox
+1081 silly gentlyRm target.path =  C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\ganache-cli
+1082 silly gentlyRm target.symlink = ../ganache-cli/build/cli.node.js
+1083 silly gentlyRm target.managed = C:\Users\Gary\project\ethereum\inbox\node_modules\.bin\ganache-cli is in C:\Users\Gary\project\ethereum\inbox
+1084 silly gentlyRm target.inParent =  { target: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\ganache-cli\\build\\cli.node.js',
+1084 silly gentlyRm   path: 'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\ganache-cli' }
+1085 info lifecycle ganache-cli@6.1.8~postuninstall: ganache-cli@6.1.8
+1086 silly doSerial remove 76
+1087 silly remove C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1088 silly remove C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1089 silly doSerial move 76
+1090 silly doSerial finalize 76
+1091 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt
+1092 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt.js
+1093 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts\node_modules\eth-lib
+1094 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts\node_modules\uuid
+1095 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts
+1096 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1097 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1098 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth
+1099 silly finalize C:\Users\Gary\project\ethereum\inbox\node_modules\web3
+1100 silly doParallel refresh-package-json 76
+1101 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt
+1102 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt.js
+1103 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts\node_modules\eth-lib
+1104 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts\node_modules\uuid
+1105 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts
+1106 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli
+1107 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\mocha
+1108 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth
+1109 silly refresh-package-json C:\Users\Gary\project\ethereum\inbox\node_modules\web3
+1110 silly doParallel preinstall 76
+1111 silly preinstall scrypt@6.0.3
+1112 info lifecycle scrypt@6.0.3~preinstall: scrypt@6.0.3
+1113 silly preinstall scrypt.js@0.2.0
+1114 info lifecycle scrypt.js@0.2.0~preinstall: scrypt.js@0.2.0
+1115 silly preinstall eth-lib@0.2.7
+1116 info lifecycle eth-lib@0.2.7~preinstall: eth-lib@0.2.7
+1117 silly preinstall uuid@2.0.1
+1118 info lifecycle uuid@2.0.1~preinstall: uuid@2.0.1
+1119 silly preinstall web3-eth-accounts@1.0.0-beta.35
+1120 info lifecycle web3-eth-accounts@1.0.0-beta.35~preinstall: web3-eth-accounts@1.0.0-beta.35
+1121 silly preinstall ganache-cli@6.1.8
+1122 info lifecycle ganache-cli@6.1.8~preinstall: ganache-cli@6.1.8
+1123 silly preinstall mocha@5.2.0
+1124 info lifecycle mocha@5.2.0~preinstall: mocha@5.2.0
+1125 silly preinstall web3-eth@1.0.0-beta.35
+1126 info lifecycle web3-eth@1.0.0-beta.35~preinstall: web3-eth@1.0.0-beta.35
+1127 silly preinstall web3@1.0.0-beta.35
+1128 info lifecycle web3@1.0.0-beta.35~preinstall: web3@1.0.0-beta.35
+1129 verbose lifecycle scrypt@6.0.3~preinstall: unsafe-perm in lifecycle true
+1130 verbose lifecycle scrypt@6.0.3~preinstall: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt\node_modules\.bin;C:\Users\Gary\project\ethereum\inbox\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Gary\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS;C:\Program Files\Intel\TXE Components\TCS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Hewlett-Packard\SimplePass;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Amazon\AWSCLI;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Users\Gary\AppData\Local\Android\sdk\platform-tools
+1131 verbose lifecycle scrypt@6.0.3~preinstall: CWD: C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt
+1132 silly lifecycle scrypt@6.0.3~preinstall: Args: [ '/d /s /c', 'node node-scrypt-preinstall.js' ]
+1133 silly lifecycle scrypt@6.0.3~preinstall: Returned: code: 0  signal: null
+1134 silly doSerial build 76
+1135 silly build scrypt@6.0.3
+1136 info linkStuff scrypt@6.0.3
+1137 silly linkStuff scrypt@6.0.3 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1138 verbose linkBins scrypt@6.0.3
+1139 verbose linkMans scrypt@6.0.3
+1140 silly build scrypt.js@0.2.0
+1141 info linkStuff scrypt.js@0.2.0
+1142 silly linkStuff scrypt.js@0.2.0 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1143 verbose linkBins scrypt.js@0.2.0
+1144 verbose linkMans scrypt.js@0.2.0
+1145 silly build eth-lib@0.2.7
+1146 info linkStuff eth-lib@0.2.7
+1147 silly linkStuff eth-lib@0.2.7 has C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts\node_modules as its parent node_modules
+1148 verbose linkBins eth-lib@0.2.7
+1149 verbose linkMans eth-lib@0.2.7
+1150 silly build uuid@2.0.1
+1151 info linkStuff uuid@2.0.1
+1152 silly linkStuff uuid@2.0.1 has C:\Users\Gary\project\ethereum\inbox\node_modules\web3-eth-accounts\node_modules as its parent node_modules
+1153 verbose linkBins uuid@2.0.1
+1154 verbose linkMans uuid@2.0.1
+1155 silly build web3-eth-accounts@1.0.0-beta.35
+1156 info linkStuff web3-eth-accounts@1.0.0-beta.35
+1157 silly linkStuff web3-eth-accounts@1.0.0-beta.35 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1158 verbose linkBins web3-eth-accounts@1.0.0-beta.35
+1159 verbose linkMans web3-eth-accounts@1.0.0-beta.35
+1160 silly build ganache-cli@6.1.8
+1161 info linkStuff ganache-cli@6.1.8
+1162 silly linkStuff ganache-cli@6.1.8 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1163 verbose linkBins ganache-cli@6.1.8
+1164 verbose linkBins [ { 'ganache-cli': './build/cli.node.js' },
+1164 verbose linkBins   'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\.bin',
+1164 verbose linkBins   false ]
+1165 verbose linkMans ganache-cli@6.1.8
+1166 silly linkBins Converting line endings of hashbang file: C:\Users\Gary\project\ethereum\inbox\node_modules\ganache-cli\build\cli.node.js
+1167 silly build mocha@5.2.0
+1168 info linkStuff mocha@5.2.0
+1169 silly linkStuff mocha@5.2.0 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1170 verbose linkBins mocha@5.2.0
+1171 verbose linkBins [ { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+1171 verbose linkBins   'C:\\Users\\Gary\\project\\ethereum\\inbox\\node_modules\\.bin',
+1171 verbose linkBins   false ]
+1172 verbose linkMans mocha@5.2.0
+1173 silly linkBins Converting line endings of hashbang file: C:\Users\Gary\project\ethereum\inbox\node_modules\mocha\bin\mocha
+1174 silly linkBins Converting line endings of hashbang file: C:\Users\Gary\project\ethereum\inbox\node_modules\mocha\bin\_mocha
+1175 silly build web3-eth@1.0.0-beta.35
+1176 info linkStuff web3-eth@1.0.0-beta.35
+1177 silly linkStuff web3-eth@1.0.0-beta.35 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1178 verbose linkBins web3-eth@1.0.0-beta.35
+1179 verbose linkMans web3-eth@1.0.0-beta.35
+1180 silly build web3@1.0.0-beta.35
+1181 info linkStuff web3@1.0.0-beta.35
+1182 silly linkStuff web3@1.0.0-beta.35 has C:\Users\Gary\project\ethereum\inbox\node_modules as its parent node_modules
+1183 verbose linkBins web3@1.0.0-beta.35
+1184 verbose linkMans web3@1.0.0-beta.35
+1185 silly doSerial global-link 76
+1186 silly doParallel update-linked 76
+1187 silly doSerial install 76
+1188 silly install scrypt@6.0.3
+1189 info lifecycle scrypt@6.0.3~install: scrypt@6.0.3
+1190 verbose lifecycle scrypt@6.0.3~install: unsafe-perm in lifecycle true
+1191 verbose lifecycle scrypt@6.0.3~install: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt\node_modules\.bin;C:\Users\Gary\project\ethereum\inbox\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Gary\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS;C:\Program Files\Intel\TXE Components\TCS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Hewlett-Packard\SimplePass;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Amazon\AWSCLI;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Users\Gary\AppData\Local\Android\sdk\platform-tools
+1192 verbose lifecycle scrypt@6.0.3~install: CWD: C:\Users\Gary\project\ethereum\inbox\node_modules\scrypt
+1193 silly lifecycle scrypt@6.0.3~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1194 silly lifecycle scrypt@6.0.3~install: Returned: code: 1  signal: null
+1195 info lifecycle scrypt@6.0.3~install: Failed to exec install script
+1196 verbose unlock done using C:\Users\Gary\AppData\Roaming\npm-cache\_locks\staging-1a39d36e5bedaa96.lock for C:\Users\Gary\project\ethereum\inbox\node_modules\.staging
+1197 silly saveTree inbox@1.0.0
+1197 silly saveTree +-- ganache-cli@6.1.8
+1197 silly saveTree | `-- source-map-support@0.5.9
+1197 silly saveTree |   +-- buffer-from@1.1.1
+1197 silly saveTree |   `-- source-map@0.6.1
+1197 silly saveTree +-- mocha@5.2.0
+1197 silly saveTree | +-- browser-stdout@1.3.1
+1197 silly saveTree | +-- commander@2.15.1
+1197 silly saveTree | +-- debug@3.1.0
+1197 silly saveTree | | `-- ms@2.0.0
+1197 silly saveTree | +-- diff@3.5.0
+1197 silly saveTree | +-- escape-string-regexp@1.0.5
+1197 silly saveTree | +-- glob@7.1.2
+1197 silly saveTree | | +-- fs.realpath@1.0.0
+1197 silly saveTree | | +-- inflight@1.0.6
+1197 silly saveTree | | | +-- once@1.4.0
+1197 silly saveTree | | | | `-- wrappy@1.0.2
+1197 silly saveTree | | | `-- wrappy@1.0.2
+1197 silly saveTree | | +-- inherits@2.0.3
+1197 silly saveTree | | +-- minimatch@3.0.4
+1197 silly saveTree | | | `-- brace-expansion@1.1.11
+1197 silly saveTree | | |   +-- balanced-match@1.0.0
+1197 silly saveTree | | |   `-- concat-map@0.0.1
+1197 silly saveTree | | +-- once@1.4.0
+1197 silly saveTree | | `-- path-is-absolute@1.0.1
+1197 silly saveTree | +-- growl@1.10.5
+1197 silly saveTree | +-- he@1.1.1
+1197 silly saveTree | +-- minimatch@3.0.4
+1197 silly saveTree | +-- mkdirp@0.5.1
+1197 silly saveTree | | `-- minimist@0.0.8
+1197 silly saveTree | `-- supports-color@5.4.0
+1197 silly saveTree |   `-- has-flag@3.0.0
+1197 silly saveTree +-- solc@0.4.25
+1197 silly saveTree | +-- fs-extra@0.30.0
+1197 silly saveTree | | +-- graceful-fs@4.1.11
+1197 silly saveTree | | +-- jsonfile@2.4.0
+1197 silly saveTree | | +-- klaw@1.3.1
+1197 silly saveTree | | `-- rimraf@2.6.2
+1197 silly saveTree | |   `-- glob@7.1.3
+1197 silly saveTree | +-- memorystream@0.3.1
+1197 silly saveTree | +-- require-from-string@1.2.1
+1197 silly saveTree | +-- semver@5.5.1
+1197 silly saveTree | `-- yargs@4.8.1
+1197 silly saveTree |   +-- cliui@3.2.0
+1197 silly saveTree |   | +-- string-width@1.0.2
+1197 silly saveTree |   | | +-- code-point-at@1.1.0
+1197 silly saveTree |   | | +-- is-fullwidth-code-point@1.0.0
+1197 silly saveTree |   | | | `-- number-is-nan@1.0.1
+1197 silly saveTree |   | | `-- strip-ansi@3.0.1
+1197 silly saveTree |   | |   `-- ansi-regex@2.1.1
+1197 silly saveTree |   | +-- strip-ansi@3.0.1
+1197 silly saveTree |   | `-- wrap-ansi@2.1.0
+1197 silly saveTree |   +-- decamelize@1.2.0
+1197 silly saveTree |   +-- get-caller-file@1.0.3
+1197 silly saveTree |   +-- lodash.assign@4.2.0
+1197 silly saveTree |   +-- os-locale@1.4.0
+1197 silly saveTree |   | `-- lcid@1.0.0
+1197 silly saveTree |   |   `-- invert-kv@1.0.0
+1197 silly saveTree |   +-- read-pkg-up@1.0.1
+1197 silly saveTree |   | +-- find-up@1.1.2
+1197 silly saveTree |   | | +-- path-exists@2.1.0
+1197 silly saveTree |   | | | `-- pinkie-promise@2.0.1
+1197 silly saveTree |   | | |   `-- pinkie@2.0.4
+1197 silly saveTree |   | | `-- pinkie-promise@2.0.1
+1197 silly saveTree |   | `-- read-pkg@1.1.0
+1197 silly saveTree |   |   +-- load-json-file@1.1.0
+1197 silly saveTree |   |   | +-- parse-json@2.2.0
+1197 silly saveTree |   |   | | `-- error-ex@1.3.2
+1197 silly saveTree |   |   | |   `-- is-arrayish@0.2.1
+1197 silly saveTree |   |   | +-- pify@2.3.0
+1197 silly saveTree |   |   | `-- strip-bom@2.0.0
+1197 silly saveTree |   |   |   `-- is-utf8@0.2.1
+1197 silly saveTree |   |   +-- normalize-package-data@2.4.0
+1197 silly saveTree |   |   | +-- hosted-git-info@2.7.1
+1197 silly saveTree |   |   | +-- is-builtin-module@1.0.0
+1197 silly saveTree |   |   | | `-- builtin-modules@1.1.1
+1197 silly saveTree |   |   | `-- validate-npm-package-license@3.0.4
+1197 silly saveTree |   |   |   +-- spdx-correct@3.0.0
+1197 silly saveTree |   |   |   | +-- spdx-expression-parse@3.0.0
+1197 silly saveTree |   |   |   | | +-- spdx-exceptions@2.1.0
+1197 silly saveTree |   |   |   | | `-- spdx-license-ids@3.0.1
+1197 silly saveTree |   |   |   | `-- spdx-license-ids@3.0.1
+1197 silly saveTree |   |   |   `-- spdx-expression-parse@3.0.0
+1197 silly saveTree |   |   `-- path-type@1.1.0
+1197 silly saveTree |   +-- require-directory@2.1.1
+1197 silly saveTree |   +-- require-main-filename@1.0.1
+1197 silly saveTree |   +-- set-blocking@2.0.0
+1197 silly saveTree |   +-- string-width@1.0.2
+1197 silly saveTree |   +-- which-module@1.0.0
+1197 silly saveTree |   +-- window-size@0.2.0
+1197 silly saveTree |   +-- y18n@3.2.1
+1197 silly saveTree |   `-- yargs-parser@2.4.1
+1197 silly saveTree |     `-- camelcase@3.0.0
+1197 silly saveTree `-- web3@1.0.0-beta.35
+1197 silly saveTree   +-- web3-bzz@1.0.0-beta.35
+1197 silly saveTree   | +-- got@7.1.0
+1197 silly saveTree   | | +-- decompress-response@3.3.0
+1197 silly saveTree   | | | `-- mimic-response@1.0.1
+1197 silly saveTree   | | +-- duplexer3@0.1.4
+1197 silly saveTree   | | +-- get-stream@3.0.0
+1197 silly saveTree   | | +-- is-plain-obj@1.1.0
+1197 silly saveTree   | | +-- is-retry-allowed@1.1.0
+1197 silly saveTree   | | +-- is-stream@1.1.0
+1197 silly saveTree   | | +-- isurl@1.0.0
+1197 silly saveTree   | | | +-- has-to-string-tag-x@1.4.1
+1197 silly saveTree   | | | | `-- has-symbol-support-x@1.4.2
+1197 silly saveTree   | | | `-- is-object@1.0.1
+1197 silly saveTree   | | +-- lowercase-keys@1.0.1
+1197 silly saveTree   | | +-- p-cancelable@0.3.0
+1197 silly saveTree   | | +-- p-timeout@1.2.1
+1197 silly saveTree   | | | `-- p-finally@1.0.0
+1197 silly saveTree   | | +-- safe-buffer@5.1.2
+1197 silly saveTree   | | +-- timed-out@4.0.1
+1197 silly saveTree   | | +-- url-parse-lax@1.0.0
+1197 silly saveTree   | | | `-- prepend-http@1.0.4
+1197 silly saveTree   | | `-- url-to-options@1.0.1
+1197 silly saveTree   | +-- swarm-js@0.1.37
+1197 silly saveTree   | | +-- bluebird@3.5.2
+1197 silly saveTree   | | +-- buffer@5.2.1
+1197 silly saveTree   | | | +-- base64-js@1.3.0
+1197 silly saveTree   | | | `-- ieee754@1.1.12
+1197 silly saveTree   | | +-- decompress@4.2.0
+1197 silly saveTree   | | | +-- decompress-tar@4.1.1
+1197 silly saveTree   | | | | +-- file-type@5.2.0
+1197 silly saveTree   | | | | `-- tar-stream@1.6.2
+1197 silly saveTree   | | | |   +-- bl@1.2.2
+1197 silly saveTree   | | | |   | `-- readable-stream@2.3.6
+1197 silly saveTree   | | | |   |   +-- core-util-is@1.0.2
+1197 silly saveTree   | | | |   |   +-- isarray@1.0.0
+1197 silly saveTree   | | | |   |   +-- process-nextick-args@2.0.0
+1197 silly saveTree   | | | |   |   +-- string_decoder@1.1.1
+1197 silly saveTree   | | | |   |   `-- util-deprecate@1.0.2
+1197 silly saveTree   | | | |   +-- buffer-alloc@1.2.0
+1197 silly saveTree   | | | |   | +-- buffer-alloc-unsafe@1.1.0
+1197 silly saveTree   | | | |   | `-- buffer-fill@1.0.0
+1197 silly saveTree   | | | |   +-- end-of-stream@1.4.1
+1197 silly saveTree   | | | |   +-- fs-constants@1.0.0
+1197 silly saveTree   | | | |   +-- readable-stream@2.3.6
+1197 silly saveTree   | | | |   +-- to-buffer@1.1.1
+1197 silly saveTree   | | | |   `-- xtend@4.0.1
+1197 silly saveTree   | | | +-- decompress-tarbz2@4.1.1
+1197 silly saveTree   | | | | +-- file-type@6.2.0
+1197 silly saveTree   | | | | +-- seek-bzip@1.0.5
+1197 silly saveTree   | | | | | `-- commander@2.8.1
+1197 silly saveTree   | | | | |   `-- graceful-readlink@1.0.1
+1197 silly saveTree   | | | | `-- unbzip2-stream@1.3.0
+1197 silly saveTree   | | | |   +-- buffer@3.6.0
+1197 silly saveTree   | | | |   | `-- base64-js@0.0.8
+1197 silly saveTree   | | | |   `-- through@2.3.8
+1197 silly saveTree   | | | +-- decompress-targz@4.1.1
+1197 silly saveTree   | | | +-- decompress-unzip@4.0.1
+1197 silly saveTree   | | | | +-- file-type@3.9.0
+1197 silly saveTree   | | | | +-- get-stream@2.3.1
+1197 silly saveTree   | | | | | `-- object-assign@4.1.1
+1197 silly saveTree   | | | | `-- yauzl@2.10.0
+1197 silly saveTree   | | | |   +-- buffer-crc32@0.2.13
+1197 silly saveTree   | | | |   `-- fd-slicer@1.1.0
+1197 silly saveTree   | | | |     `-- pend@1.2.0
+1197 silly saveTree   | | | +-- make-dir@1.3.0
+1197 silly saveTree   | | | | `-- pify@3.0.0
+1197 silly saveTree   | | | `-- strip-dirs@2.1.0
+1197 silly saveTree   | | |   `-- is-natural-number@4.0.1
+1197 silly saveTree   | | +-- eth-lib@0.1.27
+1197 silly saveTree   | | | +-- bn.js@4.11.8
+1197 silly saveTree   | | | +-- elliptic@6.4.1
+1197 silly saveTree   | | | | +-- brorand@1.1.0
+1197 silly saveTree   | | | | +-- hash.js@1.1.5
+1197 silly saveTree   | | | | | `-- minimalistic-assert@1.0.1
+1197 silly saveTree   | | | | +-- hmac-drbg@1.0.1
+1197 silly saveTree   | | | | | `-- minimalistic-crypto-utils@1.0.1
+1197 silly saveTree   | | | | +-- minimalistic-assert@1.0.1
+1197 silly saveTree   | | | | `-- minimalistic-crypto-utils@1.0.1
+1197 silly saveTree   | | | +-- keccakjs@0.2.1
+1197 silly saveTree   | | | | +-- browserify-sha3@0.0.1
+1197 silly saveTree   | | | | | `-- js-sha3@0.3.1
+1197 silly saveTree   | | | | `-- sha3@1.2.2
+1197 silly saveTree   | | | |   `-- nan@2.10.0
+1197 silly saveTree   | | | +-- nano-json-stream-parser@0.1.2
+1197 silly saveTree   | | | +-- servify@0.1.12
+1197 silly saveTree   | | | | +-- body-parser@1.18.3
+1197 silly saveTree   | | | | | +-- bytes@3.0.0
+1197 silly saveTree   | | | | | +-- content-type@1.0.4
+1197 silly saveTree   | | | | | +-- debug@2.6.9
+1197 silly saveTree   | | | | | +-- depd@1.1.2
+1197 silly saveTree   | | | | | +-- http-errors@1.6.3
+1197 silly saveTree   | | | | | | +-- setprototypeof@1.1.0
+1197 silly saveTree   | | | | | | `-- statuses@1.5.0
+1197 silly saveTree   | | | | | +-- iconv-lite@0.4.23
+1197 silly saveTree   | | | | | | `-- safer-buffer@2.1.2
+1197 silly saveTree   | | | | | +-- on-finished@2.3.0
+1197 silly saveTree   | | | | | | `-- ee-first@1.1.1
+1197 silly saveTree   | | | | | +-- qs@6.5.2
+1197 silly saveTree   | | | | | +-- raw-body@2.3.3
+1197 silly saveTree   | | | | | | `-- unpipe@1.0.0
+1197 silly saveTree   | | | | | `-- type-is@1.6.16
+1197 silly saveTree   | | | | |   +-- media-typer@0.3.0
+1197 silly saveTree   | | | | |   `-- mime-types@2.1.20
+1197 silly saveTree   | | | | |     `-- mime-db@1.36.0
+1197 silly saveTree   | | | | +-- cors@2.8.4
+1197 silly saveTree   | | | | | `-- vary@1.1.2
+1197 silly saveTree   | | | | +-- express@4.16.3
+1197 silly saveTree   | | | | | +-- accepts@1.3.5
+1197 silly saveTree   | | | | | | `-- negotiator@0.6.1
+1197 silly saveTree   | | | | | +-- array-flatten@1.1.1
+1197 silly saveTree   | | | | | +-- body-parser@1.18.2
+1197 silly saveTree   | | | | | | +-- debug@2.6.9
+1197 silly saveTree   | | | | | | +-- iconv-lite@0.4.19
+1197 silly saveTree   | | | | | | +-- qs@6.5.1
+1197 silly saveTree   | | | | | | `-- raw-body@2.3.2
+1197 silly saveTree   | | | | | |   `-- http-errors@1.6.2
+1197 silly saveTree   | | | | | |     +-- depd@1.1.1
+1197 silly saveTree   | | | | | |     +-- setprototypeof@1.0.3
+1197 silly saveTree   | | | | | |     `-- statuses@1.4.0
+1197 silly saveTree   | | | | | +-- content-disposition@0.5.2
+1197 silly saveTree   | | | | | +-- cookie-signature@1.0.6
+1197 silly saveTree   | | | | | +-- cookie@0.3.1
+1197 silly saveTree   | | | | | +-- debug@2.6.9
+1197 silly saveTree   | | | | | +-- encodeurl@1.0.2
+1197 silly saveTree   | | | | | +-- escape-html@1.0.3
+1197 silly saveTree   | | | | | +-- etag@1.8.1
+1197 silly saveTree   | | | | | +-- finalhandler@1.1.1
+1197 silly saveTree   | | | | | | +-- debug@2.6.9
+1197 silly saveTree   | | | | | | +-- parseurl@1.3.2
+1197 silly saveTree   | | | | | | `-- statuses@1.4.0
+1197 silly saveTree   | | | | | +-- fresh@0.5.2
+1197 silly saveTree   | | | | | +-- merge-descriptors@1.0.1
+1197 silly saveTree   | | | | | +-- methods@1.1.2
+1197 silly saveTree   | | | | | +-- parseurl@1.3.2
+1197 silly saveTree   | | | | | +-- path-to-regexp@0.1.7
+1197 silly saveTree   | | | | | +-- proxy-addr@2.0.4
+1197 silly saveTree   | | | | | | +-- forwarded@0.1.2
+1197 silly saveTree   | | | | | | `-- ipaddr.js@1.8.0
+1197 silly saveTree   | | | | | +-- qs@6.5.1
+1197 silly saveTree   | | | | | +-- range-parser@1.2.0
+1197 silly saveTree   | | | | | +-- safe-buffer@5.1.1
+1197 silly saveTree   | | | | | +-- send@0.16.2
+1197 silly saveTree   | | | | | | +-- debug@2.6.9
+1197 silly saveTree   | | | | | | +-- destroy@1.0.4
+1197 silly saveTree   | | | | | | +-- mime@1.4.1
+1197 silly saveTree   | | | | | | `-- statuses@1.4.0
+1197 silly saveTree   | | | | | +-- serve-static@1.13.2
+1197 silly saveTree   | | | | | +-- statuses@1.4.0
+1197 silly saveTree   | | | | | `-- utils-merge@1.0.1
+1197 silly saveTree   | | | | +-- request@2.88.0
+1197 silly saveTree   | | | | | +-- aws-sign2@0.7.0
+1197 silly saveTree   | | | | | +-- aws4@1.8.0
+1197 silly saveTree   | | | | | +-- caseless@0.12.0
+1197 silly saveTree   | | | | | +-- combined-stream@1.0.7
+1197 silly saveTree   | | | | | | `-- delayed-stream@1.0.0
+1197 silly saveTree   | | | | | +-- extend@3.0.2
+1197 silly saveTree   | | | | | +-- forever-agent@0.6.1
+1197 silly saveTree   | | | | | +-- form-data@2.3.2
+1197 silly saveTree   | | | | | | +-- asynckit@0.4.0
+1197 silly saveTree   | | | | | | `-- combined-stream@1.0.6
+1197 silly saveTree   | | | | | +-- har-validator@5.1.0
+1197 silly saveTree   | | | | | | +-- ajv@5.5.2
+1197 silly saveTree   | | | | | | | +-- co@4.6.0
+1197 silly saveTree   | | | | | | | +-- fast-deep-equal@1.1.0
+1197 silly saveTree   | | | | | | | +-- fast-json-stable-stringify@2.0.0
+1197 silly saveTree   | | | | | | | `-- json-schema-traverse@0.3.1
+1197 silly saveTree   | | | | | | `-- har-schema@2.0.0
+1197 silly saveTree   | | | | | +-- http-signature@1.2.0
+1197 silly saveTree   | | | | | | +-- assert-plus@1.0.0
+1197 silly saveTree   | | | | | | +-- jsprim@1.4.1
+1197 silly saveTree   | | | | | | | +-- extsprintf@1.3.0
+1197 silly saveTree   | | | | | | | +-- json-schema@0.2.3
+1197 silly saveTree   | | | | | | | `-- verror@1.10.0
+1197 silly saveTree   | | | | | | `-- sshpk@1.14.2
+1197 silly saveTree   | | | | | |   +-- asn1@0.2.4
+1197 silly saveTree   | | | | | |   +-- bcrypt-pbkdf@1.0.2
+1197 silly saveTree   | | | | | |   | `-- tweetnacl@0.14.5
+1197 silly saveTree   | | | | | |   +-- dashdash@1.14.1
+1197 silly saveTree   | | | | | |   +-- ecc-jsbn@0.1.2
+1197 silly saveTree   | | | | | |   | `-- jsbn@0.1.1
+1197 silly saveTree   | | | | | |   +-- getpass@0.1.7
+1197 silly saveTree   | | | | | |   +-- jsbn@0.1.1
+1197 silly saveTree   | | | | | |   `-- tweetnacl@0.14.5
+1197 silly saveTree   | | | | | +-- is-typedarray@1.0.0
+1197 silly saveTree   | | | | | +-- isstream@0.1.2
+1197 silly saveTree   | | | | | +-- json-stringify-safe@5.0.1
+1197 silly saveTree   | | | | | +-- oauth-sign@0.9.0
+1197 silly saveTree   | | | | | +-- performance-now@2.1.0
+1197 silly saveTree   | | | | | +-- tough-cookie@2.4.3
+1197 silly saveTree   | | | | | | +-- psl@1.1.29
+1197 silly saveTree   | | | | | | `-- punycode@1.4.1
+1197 silly saveTree   | | | | | +-- tunnel-agent@0.6.0
+1197 silly saveTree   | | | | | `-- uuid@3.3.2
+1197 silly saveTree   | | | | `-- xhr@2.5.0
+1197 silly saveTree   | | | |   +-- global@4.3.2
+1197 silly saveTree   | | | |   | +-- min-document@2.19.0
+1197 silly saveTree   | | | |   | | `-- dom-walk@0.1.1
+1197 silly saveTree   | | | |   | `-- process@0.5.2
+1197 silly saveTree   | | | |   +-- is-function@1.0.1
+1197 silly saveTree   | | | |   `-- parse-headers@2.0.1
+1197 silly saveTree   | | | |     +-- for-each@0.3.3
+1197 silly saveTree   | | | |     | `-- is-callable@1.1.4
+1197 silly saveTree   | | | |     `-- trim@0.0.1
+1197 silly saveTree   | | | +-- ws@3.3.3
+1197 silly saveTree   | | | | +-- async-limiter@1.0.0
+1197 silly saveTree   | | | | `-- ultron@1.1.1
+1197 silly saveTree   | | | `-- xhr-request-promise@0.1.2
+1197 silly saveTree   | | |   `-- xhr-request@1.1.0
+1197 silly saveTree   | | |     +-- buffer-to-arraybuffer@0.0.5
+1197 silly saveTree   | | |     +-- query-string@5.1.1
+1197 silly saveTree   | | |     | +-- decode-uri-component@0.2.0
+1197 silly saveTree   | | |     | `-- strict-uri-encode@1.1.0
+1197 silly saveTree   | | |     +-- simple-get@2.8.1
+1197 silly saveTree   | | |     | `-- simple-concat@1.0.0
+1197 silly saveTree   | | |     `-- url-set-query@1.0.0
+1197 silly saveTree   | | +-- fs-extra@2.1.2
+1197 silly saveTree   | | +-- fs-promise@2.0.3
+1197 silly saveTree   | | | +-- any-promise@1.3.0
+1197 silly saveTree   | | | +-- fs-extra@2.1.2
+1197 silly saveTree   | | | +-- mz@2.7.0
+1197 silly saveTree   | | | | `-- thenify-all@1.6.0
+1197 silly saveTree   | | | |   `-- thenify@3.3.0
+1197 silly saveTree   | | | `-- thenify-all@1.6.0
+1197 silly saveTree   | | +-- mime-types@2.1.20
+1197 silly saveTree   | | +-- mkdirp-promise@5.0.1
+1197 silly saveTree   | | +-- mock-fs@4.7.0
+1197 silly saveTree   | | +-- setimmediate@1.0.5
+1197 silly saveTree   | | +-- tar.gz@1.0.7
+1197 silly saveTree   | | | +-- bluebird@2.11.0
+1197 silly saveTree   | | | +-- fstream@1.0.11
+1197 silly saveTree   | | | +-- mout@0.11.1
+1197 silly saveTree   | | | `-- tar@2.2.1
+1197 silly saveTree   | | |   `-- block-stream@0.0.9
+1197 silly saveTree   | | `-- xhr-request-promise@0.1.2
+1197 silly saveTree   | `-- underscore@1.8.3
+1197 silly saveTree   +-- web3-core@1.0.0-beta.35
+1197 silly saveTree   | +-- web3-core-helpers@1.0.0-beta.35
+1197 silly saveTree   | | +-- web3-eth-iban@1.0.0-beta.35
+1197 silly saveTree   | | | +-- bn.js@4.11.6
+1197 silly saveTree   | | | `-- web3-utils@1.0.0-beta.35
+1197 silly saveTree   | | |   +-- bn.js@4.11.6
+1197 silly saveTree   | | |   +-- ethjs-unit@0.1.6
+1197 silly saveTree   | | |   | +-- bn.js@4.11.6
+1197 silly saveTree   | | |   | `-- number-to-bn@1.7.0
+1197 silly saveTree   | | |   |   +-- bn.js@4.11.6
+1197 silly saveTree   | | |   |   `-- strip-hex-prefix@1.0.0
+1197 silly saveTree   | | |   |     `-- is-hex-prefixed@1.0.0
+1197 silly saveTree   | | |   +-- number-to-bn@1.7.0
+1197 silly saveTree   | | |   +-- randomhex@0.1.5
+1197 silly saveTree   | | |   `-- utf8@2.1.1
+1197 silly saveTree   | | `-- web3-utils@1.0.0-beta.35
+1197 silly saveTree   | +-- web3-core-method@1.0.0-beta.35
+1197 silly saveTree   | | +-- web3-core-promievent@1.0.0-beta.35
+1197 silly saveTree   | | | `-- eventemitter3@1.1.1
+1197 silly saveTree   | | `-- web3-core-subscriptions@1.0.0-beta.35
+1197 silly saveTree   | +-- web3-core-requestmanager@1.0.0-beta.35
+1197 silly saveTree   | | +-- web3-providers-http@1.0.0-beta.35
+1197 silly saveTree   | | | `-- xhr2-cookies@1.1.0
+1197 silly saveTree   | | |   `-- cookiejar@2.1.2
+1197 silly saveTree   | | +-- web3-providers-ipc@1.0.0-beta.35
+1197 silly saveTree   | | | `-- oboe@2.1.3
+1197 silly saveTree   | | |   `-- http-https@1.0.0
+1197 silly saveTree   | | `-- web3-providers-ws@1.0.0-beta.35
+1197 silly saveTree   | |   `-- websocket@1.0.26
+1197 silly saveTree   | |     +-- debug@2.6.9
+1197 silly saveTree   | |     +-- typedarray-to-buffer@3.1.5
+1197 silly saveTree   | |     `-- yaeti@0.0.6
+1197 silly saveTree   | `-- web3-utils@1.0.0-beta.35
+1197 silly saveTree   +-- web3-eth-personal@1.0.0-beta.35
+1197 silly saveTree   | `-- web3-net@1.0.0-beta.35
+1197 silly saveTree   +-- web3-eth@1.0.0-beta.35
+1197 silly saveTree   | +-- web3-eth-abi@1.0.0-beta.35
+1197 silly saveTree   | | `-- bn.js@4.11.6
+1197 silly saveTree   | +-- web3-eth-accounts@1.0.0-beta.35
+1197 silly saveTree   | | +-- crypto-browserify@3.12.0
+1197 silly saveTree   | | | +-- browserify-cipher@1.0.1
+1197 silly saveTree   | | | | +-- browserify-aes@1.2.0
+1197 silly saveTree   | | | | | +-- buffer-xor@1.0.3
+1197 silly saveTree   | | | | | +-- cipher-base@1.0.4
+1197 silly saveTree   | | | | | +-- create-hash@1.2.0
+1197 silly saveTree   | | | | | | +-- md5.js@1.3.4
+1197 silly saveTree   | | | | | | | `-- hash-base@3.0.4
+1197 silly saveTree   | | | | | | +-- ripemd160@2.0.2
+1197 silly saveTree   | | | | | | `-- sha.js@2.4.11
+1197 silly saveTree   | | | | | `-- evp_bytestokey@1.0.3
+1197 silly saveTree   | | | | +-- browserify-des@1.0.2
+1197 silly saveTree   | | | | | `-- des.js@1.0.0
+1197 silly saveTree   | | | | `-- evp_bytestokey@1.0.3
+1197 silly saveTree   | | | +-- browserify-sign@4.0.4
+1197 silly saveTree   | | | | +-- browserify-rsa@4.0.1
+1197 silly saveTree   | | | | | `-- randombytes@2.0.6
+1197 silly saveTree   | | | | +-- create-hmac@1.1.7
+1197 silly saveTree   | | | | `-- parse-asn1@5.1.1
+1197 silly saveTree   | | | |   +-- asn1.js@4.10.1
+1197 silly saveTree   | | | |   `-- pbkdf2@3.0.17
+1197 silly saveTree   | | | +-- create-ecdh@4.0.3
+1197 silly saveTree   | | | +-- create-hash@1.2.0
+1197 silly saveTree   | | | +-- create-hmac@1.1.7
+1197 silly saveTree   | | | +-- diffie-hellman@5.0.3
+1197 silly saveTree   | | | | `-- miller-rabin@4.0.1
+1197 silly saveTree   | | | +-- pbkdf2@3.0.17
+1197 silly saveTree   | | | +-- public-encrypt@4.0.2
+1197 silly saveTree   | | | +-- randombytes@2.0.6
+1197 silly saveTree   | | | `-- randomfill@1.0.4
+1197 silly saveTree   | | +-- eth-lib@0.2.7
+1197 silly saveTree   | | +-- scrypt.js@0.2.0
+1197 silly saveTree   | | | +-- scrypt@6.0.3
+1197 silly saveTree   | | | `-- scryptsy@1.2.1
+1197 silly saveTree   | | `-- uuid@2.0.1
+1197 silly saveTree   | `-- web3-eth-contract@1.0.0-beta.35
+1197 silly saveTree   +-- web3-net@1.0.0-beta.35
+1197 silly saveTree   +-- web3-shh@1.0.0-beta.35
+1197 silly saveTree   `-- web3-utils@1.0.0-beta.35
+1198 warn inbox@1.0.0 No description
+1199 warn inbox@1.0.0 No repository field.
+1200 verbose stack Error: scrypt@6.0.3 install: `node-gyp rebuild`
+1200 verbose stack Exit status 1
+1200 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:285:16)
+1200 verbose stack     at emitTwo (events.js:126:13)
+1200 verbose stack     at EventEmitter.emit (events.js:214:7)
+1200 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+1200 verbose stack     at emitTwo (events.js:126:13)
+1200 verbose stack     at ChildProcess.emit (events.js:214:7)
+1200 verbose stack     at maybeClose (internal/child_process.js:925:16)
+1200 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+1201 verbose pkgid scrypt@6.0.3
+1202 verbose cwd C:\Users\Gary\project\ethereum\inbox
+1203 verbose Windows_NT 6.3.9600
+1204 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "mocha" "ganache-cli" "web3@1.0.0-beta.35"
+1205 verbose node v8.11.4
+1206 verbose npm  v5.6.0
+1207 error code ELIFECYCLE
+1208 error errno 1
+1209 error scrypt@6.0.3 install: `node-gyp rebuild`
+1209 error Exit status 1
+1210 error Failed at the scrypt@6.0.3 install script.
+1210 error This is probably not a problem with npm. There is likely additional logging output above.
+1211 verbose exit [ 1, true ]

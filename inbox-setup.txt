@@ -1,0 +1,7 @@
+npm init
+
+npm install --save web3@1.0.0-beta.35
+
+npm install --global --production windows-build-tools
+
+npm install --save mocha ganache-cli web3@1.0.0-beta.35
